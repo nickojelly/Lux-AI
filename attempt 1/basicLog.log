@@ -1,0 +1,1512 @@
+INFO:root:here = 0
+INFO:root:here = 1
+INFO:root:here = 2
+INFO:root:here = 3
+INFO:root:Attempt City Build
+INFO:root:Nearest City is [17, 12]
+INFO:root:: Checking [18, 12]
+INFO:root:: Checking [16, 12]
+INFO:root:3 Found [16, 12]
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:here = 4
+INFO:root:here = 5
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:here = 6
+INFO:root:here = 7
+INFO:root:Attempt City Build
+INFO:root:7 build: At Location Building City
+INFO:root:here = 8
+INFO:root:Building Worker
+INFO:root:here = 9
+INFO:root:here = 10
+INFO:root:here = 11
+INFO:root:here = 12
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:here = 13
+INFO:root:here = 14
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:here = 15
+INFO:root:here = 16
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:here = 17
+INFO:root:here = 18
+INFO:root:here = 19
+INFO:root:here = 20
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:here = 21
+INFO:root:here = 22
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:here = 23
+INFO:root:here = 24
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:here = 25
+INFO:root:here = 26
+INFO:root:here = 27
+INFO:root:here = 28
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:here = 29
+INFO:root:here = 30
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:here = 31
+INFO:root:Its night
+INFO:root:here = 32
+INFO:root:Its night
+INFO:root:here = 33
+INFO:root:Its night
+INFO:root:here = 34
+INFO:root:Its night
+INFO:root:here = 35
+INFO:root:Its night
+INFO:root:here = 36
+INFO:root:Its night
+INFO:root:here = 37
+INFO:root:Its night
+INFO:root:here = 38
+INFO:root:Its night
+INFO:root:here = 39
+INFO:root:Its night
+INFO:root:here = 40
+INFO:root:Its night
+INFO:root:here = 41
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 42
+INFO:root:Its night
+INFO:root:here = 43
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 44
+INFO:root:Its night
+INFO:root:here = 45
+INFO:root:Its night
+INFO:root:here = 46
+INFO:root:Its night
+INFO:root:here = 47
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 48
+INFO:root:Its night
+INFO:root:here = 49
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 50
+INFO:root:Its night
+INFO:root:here = 51
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 52
+INFO:root:Its night
+INFO:root:here = 53
+INFO:root:Its night
+INFO:root:here = 54
+INFO:root:Its night
+INFO:root:here = 55
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 56
+INFO:root:Its night
+INFO:root:here = 57
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 58
+INFO:root:Its night
+INFO:root:here = 59
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 60
+INFO:root:Its night
+INFO:root:here = 61
+INFO:root:Its night
+INFO:root:here = 62
+INFO:root:Its night
+INFO:root:here = 63
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 64
+INFO:root:Its night
+INFO:root:here = 65
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 66
+INFO:root:Its night
+INFO:root:here = 67
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 68
+INFO:root:Its night
+INFO:root:here = 69
+INFO:root:Its night
+INFO:root:here = 70
+INFO:root:Its night
+INFO:root:here = 71
+INFO:root:Its night
+INFO:root:here = 72
+INFO:root:Its night
+INFO:root:here = 73
+INFO:root:Its night
+INFO:root:here = 74
+INFO:root:Its night
+INFO:root:here = 75
+INFO:root:Its night
+INFO:root:here = 76
+INFO:root:Its night
+INFO:root:here = 77
+INFO:root:Its night
+INFO:root:here = 78
+INFO:root:Its night
+INFO:root:here = 79
+INFO:root:Its night
+INFO:root:here = 80
+INFO:root:Its night
+INFO:root:here = 81
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (15, 11), dx = 1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['e']
+INFO:root:Its night
+INFO:root:here = 82
+INFO:root:Its night
+INFO:root:here = 83
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 84
+INFO:root:Its night
+INFO:root:here = 85
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 86
+INFO:root:Its night
+INFO:root:here = 87
+INFO:root:Its night
+INFO:root:here = 88
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 89
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 90
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 91
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 92
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 93
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 94
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 95
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 96
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 97
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 98
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 99
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 100
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 101
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 102
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 103
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 104
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 105
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 106
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 107
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 108
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 109
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 110
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 111
+INFO:root:Its night
+INFO:root:here = 112
+INFO:root:Its night
+INFO:root:here = 113
+INFO:root:Its night
+INFO:root:here = 114
+INFO:root:Its night
+INFO:root:here = 115
+INFO:root:Its night
+INFO:root:here = 116
+INFO:root:Its night
+INFO:root:here = 117
+INFO:root:Its night
+INFO:root:here = 118
+INFO:root:Its night
+INFO:root:here = 119
+INFO:root:Its night
+INFO:root:here = 120
+INFO:root:Its night
+INFO:root:here = 121
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 122
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 123
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 124
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 125
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 126
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 127
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 128
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 129
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 130
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 131
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 132
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 133
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 134
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 135
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 136
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 137
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 138
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 139
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 140
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 141
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 142
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 143
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 144
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 145
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 146
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 147
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 148
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 149
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 150
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 12), dx = -2, dy = 0
+INFO:root:moving to [18, 12]
+INFO:root:build: Moving to build location ['c']
+INFO:root:Its night
+INFO:root:here = 151
+INFO:root:Its night
+INFO:root:here = 152
+INFO:root:Its night
+INFO:root:here = 153
+INFO:root:Its night
+INFO:root:here = 154
+INFO:root:Its night
+INFO:root:here = 155
+INFO:root:Its night
+INFO:root:here = 156
+INFO:root:Its night
+INFO:root:here = 157
+INFO:root:Its night
+INFO:root:here = 158
+INFO:root:Its night
+INFO:root:here = 159
+INFO:root:Its night
+INFO:root:here = 160
+INFO:root:Its night
+INFO:root:here = 161
+INFO:root:Attempt City Build
+INFO:root:unit pos = (15, 11), dx = 1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['e']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 162
+INFO:root:Its night
+INFO:root:here = 163
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 164
+INFO:root:Its night
+INFO:root:here = 165
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 166
+INFO:root:Its night
+INFO:root:here = 167
+INFO:root:Its night
+INFO:root:here = 168
+INFO:root:Its night
+INFO:root:here = 169
+INFO:root:Its night
+INFO:root:here = 170
+INFO:root:Its night
+INFO:root:here = 171
+INFO:root:Its night
+INFO:root:here = 172
+INFO:root:Its night
+INFO:root:here = 173
+INFO:root:Its night
+INFO:root:here = 174
+INFO:root:Attempt City Build
+INFO:root:unit pos = (14, 11), dx = 2, dy = 1
+INFO:root:moving to [15, 10]
+INFO:root:build: Moving to build location ['e']
+INFO:root:Its night
+INFO:root:here = 175
+INFO:root:Its night
+INFO:root:here = 176
+INFO:root:Attempt City Build
+INFO:root:unit pos = (15, 11), dx = 1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['e']
+INFO:root:Its night
+INFO:root:here = 177
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 178
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 179
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 180
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 181
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 182
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 183
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 184
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 185
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 186
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 187
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 188
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 189
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 190
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 191
+INFO:root:Its night
+INFO:root:here = 192
+INFO:root:Its night
+INFO:root:here = 193
+INFO:root:Its night
+INFO:root:here = 194
+INFO:root:Its night
+INFO:root:here = 195
+INFO:root:Its night
+INFO:root:here = 196
+INFO:root:Its night
+INFO:root:here = 197
+INFO:root:Its night
+INFO:root:here = 198
+INFO:root:Building Worker
+INFO:root:Its night
+INFO:root:here = 199
+INFO:root:Its night
+INFO:root:here = 200
+INFO:root:Building Worker
+INFO:root:Its night
+INFO:root:here = 201
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 202
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 203
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 204
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 205
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 206
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 207
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 208
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 209
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 210
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 211
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 212
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 213
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 214
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 215
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 216
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 217
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 218
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 219
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 220
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 221
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 222
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 223
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 224
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 225
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 226
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 227
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 228
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 229
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 230
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 231
+INFO:root:Its night
+INFO:root:here = 232
+INFO:root:Its night
+INFO:root:here = 233
+INFO:root:Its night
+INFO:root:here = 234
+INFO:root:Its night
+INFO:root:here = 235
+INFO:root:Its night
+INFO:root:here = 236
+INFO:root:Its night
+INFO:root:here = 237
+INFO:root:Its night
+INFO:root:here = 238
+INFO:root:Its night
+INFO:root:here = 239
+INFO:root:Its night
+INFO:root:here = 240
+INFO:root:Its night
+INFO:root:here = 241
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 242
+INFO:root:Its night
+INFO:root:here = 243
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 244
+INFO:root:Its night
+INFO:root:here = 245
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 246
+INFO:root:Its night
+INFO:root:here = 247
+INFO:root:Its night
+INFO:root:here = 248
+INFO:root:Its night
+INFO:root:here = 249
+INFO:root:Its night
+INFO:root:here = 250
+INFO:root:Its night
+INFO:root:here = 251
+INFO:root:Its night
+INFO:root:here = 252
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 253
+INFO:root:Its night
+INFO:root:here = 254
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 255
+INFO:root:Its night
+INFO:root:here = 256
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 257
+INFO:root:Its night
+INFO:root:here = 258
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 259
+INFO:root:Its night
+INFO:root:here = 260
+INFO:root:Its night
+INFO:root:here = 261
+INFO:root:Its night
+INFO:root:here = 262
+INFO:root:Its night
+INFO:root:here = 263
+INFO:root:Its night
+INFO:root:here = 264
+INFO:root:Its night
+INFO:root:here = 265
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 266
+INFO:root:Its night
+INFO:root:here = 267
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 268
+INFO:root:Its night
+INFO:root:here = 269
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 270
+INFO:root:Its night
+INFO:root:here = 271
+INFO:root:Its night
+INFO:root:here = 272
+INFO:root:Its night
+INFO:root:here = 273
+INFO:root:Its night
+INFO:root:here = 274
+INFO:root:Its night
+INFO:root:here = 275
+INFO:root:Its night
+INFO:root:here = 276
+INFO:root:Its night
+INFO:root:here = 277
+INFO:root:Its night
+INFO:root:here = 278
+INFO:root:Building Worker
+INFO:root:Its night
+INFO:root:here = 279
+INFO:root:Its night
+INFO:root:here = 280
+INFO:root:Building Worker
+INFO:root:Its night
+INFO:root:here = 281
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 282
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 283
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 284
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 285
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 286
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 287
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 288
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 289
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 290
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 291
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 292
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 293
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 294
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 295
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 296
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 297
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 298
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 299
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 300
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 301
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 302
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 303
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 304
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 305
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 306
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 307
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 308
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 309
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 310
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 311
+INFO:root:Its night
+INFO:root:here = 312
+INFO:root:Its night
+INFO:root:here = 313
+INFO:root:Its night
+INFO:root:here = 314
+INFO:root:Its night
+INFO:root:here = 315
+INFO:root:Its night
+INFO:root:here = 316
+INFO:root:Its night
+INFO:root:here = 317
+INFO:root:Its night
+INFO:root:here = 318
+INFO:root:Its night
+INFO:root:here = 319
+INFO:root:Its night
+INFO:root:here = 320
+INFO:root:Its night
+INFO:root:here = 321
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 322
+INFO:root:Its night
+INFO:root:here = 323
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 324
+INFO:root:Its night
+INFO:root:here = 325
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 326
+INFO:root:Its night
+INFO:root:here = 327
+INFO:root:Its night
+INFO:root:here = 328
+INFO:root:Its night
+INFO:root:here = 329
+INFO:root:Its night
+INFO:root:here = 330
+INFO:root:Its night
+INFO:root:here = 331
+INFO:root:Its night
+INFO:root:here = 332
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 333
+INFO:root:Its night
+INFO:root:here = 334
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 335
+INFO:root:Its night
+INFO:root:here = 336
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 337
+INFO:root:Its night
+INFO:root:here = 338
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 339
+INFO:root:Its night
+INFO:root:here = 340
+INFO:root:Its night
+INFO:root:here = 341
+INFO:root:Its night
+INFO:root:here = 342
+INFO:root:Its night
+INFO:root:here = 343
+INFO:root:Its night
+INFO:root:here = 344
+INFO:root:Its night
+INFO:root:here = 345
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 346
+INFO:root:Its night
+INFO:root:here = 347
+INFO:root:Attempt City Build
+INFO:root:unit pos = (18, 11), dx = -2, dy = 1
+INFO:root:moving to [17, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Its night
+INFO:root:here = 348
+INFO:root:Its night
+INFO:root:here = 349
+INFO:root:Attempt City Build
+INFO:root:unit pos = (17, 11), dx = -1, dy = 1
+INFO:root:moving to [16, 10]
+INFO:root:build: Moving to build location ['w']
+INFO:root:Attempt City Build
+INFO:root:unit pos = (16, 11), dx = 0, dy = 1
+INFO:root:moving to [16, 12]
+INFO:root:build: Moving to build location ['s']
+INFO:root:Its night
+INFO:root:here = 350
+INFO:root:Its night
+INFO:root:here = 351
+INFO:root:Its night
+INFO:root:here = 352
+INFO:root:Its night
+INFO:root:here = 353
+INFO:root:Its night
+INFO:root:here = 354
+INFO:root:Its night
+INFO:root:here = 355
+INFO:root:Its night
+INFO:root:here = 356
+INFO:root:Its night
+INFO:root:here = 357
+INFO:root:Its night
+INFO:root:here = 358
+INFO:root:Building Worker
+INFO:root:Its night
+INFO:root:here = 359
+INFO:root:Its night
+INFO:root:here = 360
+INFO:root:Building Worker
+INFO:root:Its night

@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 168, in agent
+    actions.append(build_city_action(game_state,player,unit))
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 99, in build_city_action
+    if unit.pos == build_location.pos:
+AttributeError: 'NoneType' object has no attribute 'pos'
+Agent timed out
