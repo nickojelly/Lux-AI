@@ -1,5 +1,6 @@
 from io import TextIOBase
 import math, sys
+from os import path
 from types import CellType
 
 from numpy.core.numeric import full_like
@@ -108,6 +109,59 @@ def get_simple_path(unit, dest):
 
 
 
+def get_better_path(unit, dest):
+    global game_state
+    sign = lambda a: (a>0) - (a<0)
+    (dx, dy) = (dest.pos.x-unit.pos.x, dest.pos.y-unit.pos.y)
+    num_moves = abs(dx)+abs(dy)
+    dirs = [ (-1,0), (1,0), (0,-1), (0,1) ]
+    better_path = None
+    path_list = [[game_state.map.get_cell_by_pos(unit.pos)]]
+    visited = []
+    log_function(f"---- get_better_path ----\nunit pos = {(unit.pos.x,unit.pos.y)} to {dest.pos.x,dest.pos.y}")
+    while not better_path:
+        
+        for p in path_list:
+            new_path_list = []
+            log_function(f"length of p {len(p)}")
+            log_function("current path \n")
+            curr_path_cor = []
+            for n in p:
+                curr_path_cor.append((n.pos.x, n.pos.y))
+            log_function(f"{curr_path_cor=}")
+            current_cell = p[-1]
+            log_function(f" current cell = {current_cell.pos.x,current_cell.pos.y}")
+            adj_cells = get_build_grid(current_cell,1)
+
+            for i in dirs:
+                log_function(f"{i=}")
+                try:
+                    check_cell = game_state.map.get_cell(current_cell.pos.x+i[0], current_cell.pos.y+i[1])
+                    #log_function(f"check cell = {check_cell.pos.x, check_cell.pos.y}")
+                    if check_cell == dest:
+                        better_path = p + [check_cell]
+                    elif check_cell.citytile or check_cell in visited:
+                        continue
+                    else:
+                        check_path = p
+                        log_function(f"1{check_path[0].pos.x,check_path[0].pos.y}")
+                        check_path= p + [check_cell]
+                        #log_function(f"2{check_path=}")
+                        new_path_list.append(check_path)
+                        visited.append(check_cell)
+                except Exception as e:
+                    log_function(f"Better path ref out of index {str(e)}")
+        path_list = new_path_list
+        log_function("end of it\n\n")
+    log_function(f"Best path from {(unit.pos.x,unit.pos.y)} to {dest.pos.x,dest.pos.y} is:")
+    for i in better_path:
+        log_function(f" ({i.pos.x,i.pos.y})")
+
+
+            
+
+
+
 def night_move(player,unit):
     global game_state
     close_home = get_closest_city_tile(player,unit)
@@ -140,6 +194,7 @@ def build_city_action(game_state, player, unit):
     elif (build_location):
         log_function(f"{game_state.turn} Moving to  Build location = {build_location.pos}")
         move_cell = get_simple_path(unit, build_location)
+        get_better_path(unit, build_location)
         move_dir = unit.pos.direction_to(move_cell.pos)
 
 
@@ -306,4 +361,7 @@ def agent(observation, configuration):
     for s in logging_str:
         actions.append(annotate.sidetext(f"{s}"))
     logging_str = []
+    logging.info("Move this turn:\n")
+    for act in actions:
+        logging.info(f"{act}")
     return actions
