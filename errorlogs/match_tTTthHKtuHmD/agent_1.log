@@ -1,0 +1,10 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 2\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 2\agent.py", line 228, in agent
+    new_city_loc = get_best_build_loc(game_state, closest_city_tile)
+NameError: name 'get_best_build_loc' is not defined
+Agent timed out

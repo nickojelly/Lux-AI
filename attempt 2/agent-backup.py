@@ -1,3 +1,4 @@
+from io import TextIOBase
 import math, sys
 from lux.game import Game
 from lux.game_map import Cell, RESOURCE_TYPES, GameMap
@@ -5,6 +6,7 @@ from lux.constants import Constants
 from lux.game_constants import GAME_CONSTANTS
 from lux import annotate
 import logging 
+import numpy
 
 with open('basicLog.log', 'w'):
     pass
@@ -15,6 +17,14 @@ DIRECTIONS = Constants.DIRECTIONS
 game_state = None
 build_location = None
 night_flag = False
+logging_str = []
+
+def log_function(log_entry):
+    global logging_str
+    logging_str.append(log_entry)
+    logging.info(log_entry)
+    logging.info(f"{logging_str=}")
+    
 
 def get_resource_tiles(game_state, width, height):
     resource_tiles: list[Cell] = []
@@ -63,7 +73,7 @@ def get_closest_empty_city_tile(player,unit):
     unit_pos_list = []
     for u in player.units:
         unit_pos_list.append(u.pos)
-    logging.info(f"Unit pos list {unit_pos_list}")
+    log_function(f"Unit pos list {unit_pos_list}")
     for k, city in player.cities.items():
         for city_tile in city.citytiles:
             dist = city_tile.pos.distance_to(unit.pos)
@@ -72,8 +82,6 @@ def get_closest_empty_city_tile(player,unit):
                 closest_city_tile = city_tile
     return closest_city_tile
 
-def get_best_build_loc(game_state,closest_city_tile):
-    p = 1
 
 def get_burn_rate(player):
     burn_rate = 0
@@ -85,14 +93,14 @@ def get_simple_path(unit, dest):
     global game_state
     (dx, dy) = (dest.pos.x-unit.pos.x, dest.pos.y-unit.pos.y)
     sign = lambda a: (a>0) - (a<0)
-    logging.info(f"unit pos = {unit.pos.x, unit.pos.y}, dx = {dx}, dy = {dy}")
+    log_function(f"unit pos = {unit.pos.x, unit.pos.y}, dx = {dx}, dy = {dy}")
     cell_x_dir = game_state.map.get_cell(unit.pos.x+sign(dx), unit.pos.y)
     cell_y_dir = game_state.map.get_cell(unit.pos.x, unit.pos.y+sign(dy))
     if (not dx) or cell_x_dir.citytile:
-        logging.info(f"moving to {[cell_y_dir.pos.x,cell_y_dir.pos.y]}")
+        log_function(f"moving to {[cell_y_dir.pos.x,cell_y_dir.pos.y]}")
         return cell_y_dir
     elif dx:
-        logging.info(f"moving to {[cell_x_dir.pos.x,cell_x_dir.pos.y-sign(dy)]}")
+        log_function(f"moving to {[cell_x_dir.pos.x,cell_x_dir.pos.y-sign(dy)]}")
         return cell_x_dir
 
 
@@ -102,56 +110,72 @@ def night_move(player,unit):
     close_home = get_closest_city_tile(player,unit)
     
     if not close_home:
-        logging.info(f"No Home available for {unit}")
+        log_function(f"No Home available for {unit}")
         return unit.move("C")
     else:
-        logging.info(f"Closest home for unit {unit} is {close_home.pos}")
+        log_function(f"Closest home for unit {unit} is {close_home.pos}")
         return unit.move(unit.pos.direction_to(close_home.pos))
     
-
-def get_build_location(game_state, position):    
-    pass
 
 def build_city_action(game_state, player, unit):
     global build_location
     empty_near = get_closest_city_tile(player,unit)
     while build_location==None:
-        logging.info(f"Nearest City is {[empty_near.pos.x, empty_near.pos.y]}")
+        log_function(f"Nearest City is {[empty_near.pos.x, empty_near.pos.y]}")
         dirs = [(1,0),(-1,0),(0,1),(0,-1)]
         for d in dirs:
             try:
                 check_tile = game_state.map.get_cell(empty_near.pos.x+d[0],empty_near.pos.y+d[1])
-                logging.info(f": Checking {[check_tile.pos.x,check_tile.pos.y]}")
+                log_function(f": Checking {[check_tile.pos.x,check_tile.pos.y]}")
 
                 if check_tile.resource == None and check_tile.road == 0 and check_tile.citytile == None:
                     build_location = check_tile
-                    logging.info(f"{game_state.turn} Found {[check_tile.pos.x,check_tile.pos.y]}")
+                    log_function(f"{game_state.turn} Found {[check_tile.pos.x,check_tile.pos.y]}")
+                    get_cell_build_value(game_state, build_location)
                     break
             except Exception as e:
-                logging.warning(f"{game_state.turn} broke")
+                logging.warning(f"{game_state.turn, str(e)} broke")
         if not build_location:
             empty_near = game_state.map.get_cell(empty_near.pos.x+d[0]*2,empty_near.pos.y+d[1]*2)
 
     if (build_location) and unit.pos == build_location.pos:
-        logging.info(f"{game_state.turn} build: At Location Building City")
+        log_function(f"{game_state.turn} build: At Location Building City")
         build_location=None
         return unit.build_city()
     elif (build_location):
-        logging.info(f"{game_state.turn} Moving to  Build location = {build_location}")
+        log_function(f"{game_state.turn} Moving to  Build location = {build_location}")
         move_cell = get_simple_path(unit, build_location)
         move_dir = unit.pos.direction_to(move_cell.pos)
 
 
-        logging.info(f"build: Moving in Dir {[move_dir]}")
+        log_function(f"build: Moving in Dir {[move_dir]}")
         return unit.move(move_dir)
 
 def resource_sum(unit):
     return unit.cargo.wood+unit.cargo.coal+unit.cargo.uranium
 
+def get_cell_build_value(game_state, centre_cell):
+    close_c_list = []
+    cell_build_val = 0
+    for r in game_state.map.map:
+        #log_function(f"{r=}")
+        for c in r:
+            if centre_cell.pos.distance_to(c.pos)==1:
+                close_c_list.append(c)
+                if c.has_resource():
+                    cell_build_val += 1
+    log_function(f"Checked Cell {centre_cell.pos}, {cell_build_val=}")
+    return cell_build_val
+
+
+
+
+
 def agent(observation, configuration):
     global game_state
     global build_location
     global night_flag
+    global logging_str
     ### Do not edit ###
     if observation["step"] == 0:
         game_state = Game()
@@ -163,7 +187,7 @@ def agent(observation, configuration):
     
     actions = []
     step = observation["step"]
-    logging.info(f"----- turn = {observation['step']} ----- \n")
+    log_function(f"----- turn = {observation['step']} ----- ")
 
     ### AI Code goes down here! ### 
     player = game_state.players[observation.player]
@@ -172,7 +196,7 @@ def agent(observation, configuration):
     cities = player.cities.values()
     city_tiles = []
 
-    if observation["step"]%40>30:
+    if observation["step"]%40>29:
         night_flag = True
     else:
         night_flag = False
@@ -188,8 +212,8 @@ def agent(observation, configuration):
 
     resource_tiles = get_resource_tiles(game_state,width,height)
     
-    #logging.info(f"{cities}")
-    #logging.info(f"{city_tiles}")
+    #log_function(f"{cities}")
+    #log_function(f"{city_tiles}")
 
     build_city_flag = False
     if len(city_tiles) <= len(workers):
@@ -205,7 +229,7 @@ def agent(observation, configuration):
     # we iterate over all our units and do something with them
     for unit in player.units:
         if night_flag:
-            logging.info("Its night")
+            log_function("Its night")
             if unit.pos in city_tiles:
                 continue
             else:
@@ -213,10 +237,9 @@ def agent(observation, configuration):
         elif unit.is_worker() and unit.can_act():
             closest_resource_tile = get_closest_resource(unit, resource_tiles, player) 
             closest_city_tile = get_closest_city_tile(player,unit)
-            new_city_loc = get_best_build_loc(game_state, closest_city_tile)
 
-            if build_city_flag and (resource_sum(unit) == 100) and unit == builder_unit:
-                logging.info(f"Attempt City Build")
+            if build_city_flag and (resource_sum(unit) == 100) and unit.id == builder_unit.id:
+                log_function(f"Attempt City Build")
                 actions.append(build_city_action(game_state,player,unit))
             elif closest_resource_tile is not None:
                 if closest_resource_tile not in move_pos_list:
@@ -237,11 +260,12 @@ def agent(observation, configuration):
         for ct in c.citytiles:
             if ct.can_act() and not night_flag:
                 if build_worker_flag:
-                    logging.info("Building Worker")
+                    log_function("Building Worker")
                     actions.append(ct.build_worker())
                 else:
                     actions.append(ct.research())
     # you can add debug annotations using the functions in the annotate object
-    actions.append(annotate.sidetext("helloworld"))
-    
+    for s in logging_str:
+        actions.append(annotate.sidetext(f"{s}"))
+    logging_str = []
     return actions

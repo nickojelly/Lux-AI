@@ -1,0 +1,1343 @@
+INFO:root:----- turn = 0 ----- 
+INFO:root:----- turn = 1 ----- 
+INFO:root:----- turn = 2 ----- 
+INFO:root:----- turn = 3 ----- 
+INFO:root:----- turn = 4 ----- 
+INFO:root:Attempt City Build
+INFO:root:Nearest City is [21, 12]
+INFO:root:(21, 10) has c_val=0
+INFO:root:(20, 11) has c_val=0
+INFO:root:(21, 11) has c_val=0
+INFO:root:(22, 11) has c_val=0
+INFO:root:(19, 12) has c_val=6
+INFO:root:(20, 12) has c_val=0
+INFO:root:(21, 12) has c_val=0
+INFO:root:(22, 12) has c_val=0
+INFO:root:(23, 12) has c_val=15
+INFO:root:(20, 13) has c_val=11
+INFO:root:(21, 13) has c_val=0
+INFO:root:(22, 13) has c_val=0
+INFO:root:(21, 14) has c_val=11
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x00000247516A3AF0> with best_loc_val=15
+INFO:root:4 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 11), dx = 3, dy = 1
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 5 ----- 
+INFO:root:----- turn = 6 ----- 
+INFO:root:Attempt City Build
+INFO:root:6 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 7 ----- 
+INFO:root:Attempt City Build
+INFO:root:7 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 8 ----- 
+INFO:root:Attempt City Build
+INFO:root:8 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 9 ----- 
+INFO:root:Attempt City Build
+INFO:root:9 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 10 ----- 
+INFO:root:Attempt City Build
+INFO:root:10 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 11 ----- 
+INFO:root:Attempt City Build
+INFO:root:11 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 12 ----- 
+INFO:root:Attempt City Build
+INFO:root:12 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 13 ----- 
+INFO:root:Attempt City Build
+INFO:root:13 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 14 ----- 
+INFO:root:Attempt City Build
+INFO:root:14 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 15 ----- 
+INFO:root:Attempt City Build
+INFO:root:15 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 16 ----- 
+INFO:root:Attempt City Build
+INFO:root:16 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 17 ----- 
+INFO:root:Attempt City Build
+INFO:root:17 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 18 ----- 
+INFO:root:Attempt City Build
+INFO:root:18 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 19 ----- 
+INFO:root:Attempt City Build
+INFO:root:19 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 20 ----- 
+INFO:root:Attempt City Build
+INFO:root:20 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 21 ----- 
+INFO:root:Attempt City Build
+INFO:root:21 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 22 ----- 
+INFO:root:Attempt City Build
+INFO:root:22 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 23 ----- 
+INFO:root:Attempt City Build
+INFO:root:23 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 24 ----- 
+INFO:root:Attempt City Build
+INFO:root:24 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 25 ----- 
+INFO:root:Attempt City Build
+INFO:root:25 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 26 ----- 
+INFO:root:Attempt City Build
+INFO:root:26 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 27 ----- 
+INFO:root:Attempt City Build
+INFO:root:27 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 28 ----- 
+INFO:root:Attempt City Build
+INFO:root:28 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 29 ----- 
+INFO:root:Attempt City Build
+INFO:root:29 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 30 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024751695A00> is (21, 12)
+INFO:root:----- turn = 31 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 32 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 33 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 34 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 35 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 36 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 37 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 38 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 39 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 40 ----- 
+INFO:root:----- turn = 41 ----- 
+INFO:root:----- turn = 42 ----- 
+INFO:root:----- turn = 43 ----- 
+INFO:root:----- turn = 44 ----- 
+INFO:root:Attempt City Build
+INFO:root:44 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 11), dx = 3, dy = 1
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 45 ----- 
+INFO:root:----- turn = 46 ----- 
+INFO:root:Attempt City Build
+INFO:root:46 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 47 ----- 
+INFO:root:Attempt City Build
+INFO:root:47 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 48 ----- 
+INFO:root:Attempt City Build
+INFO:root:48 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 49 ----- 
+INFO:root:Attempt City Build
+INFO:root:49 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 50 ----- 
+INFO:root:Attempt City Build
+INFO:root:50 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 51 ----- 
+INFO:root:Attempt City Build
+INFO:root:51 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 52 ----- 
+INFO:root:Attempt City Build
+INFO:root:52 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 53 ----- 
+INFO:root:Attempt City Build
+INFO:root:53 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 54 ----- 
+INFO:root:Attempt City Build
+INFO:root:54 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 55 ----- 
+INFO:root:Attempt City Build
+INFO:root:55 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 56 ----- 
+INFO:root:Attempt City Build
+INFO:root:56 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 57 ----- 
+INFO:root:Attempt City Build
+INFO:root:57 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 58 ----- 
+INFO:root:Attempt City Build
+INFO:root:58 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 59 ----- 
+INFO:root:Attempt City Build
+INFO:root:59 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 60 ----- 
+INFO:root:Attempt City Build
+INFO:root:60 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 61 ----- 
+INFO:root:Attempt City Build
+INFO:root:61 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 62 ----- 
+INFO:root:Attempt City Build
+INFO:root:62 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 63 ----- 
+INFO:root:Attempt City Build
+INFO:root:63 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 64 ----- 
+INFO:root:Attempt City Build
+INFO:root:64 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 65 ----- 
+INFO:root:Attempt City Build
+INFO:root:65 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 66 ----- 
+INFO:root:Attempt City Build
+INFO:root:66 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 67 ----- 
+INFO:root:Attempt City Build
+INFO:root:67 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 68 ----- 
+INFO:root:Attempt City Build
+INFO:root:68 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 69 ----- 
+INFO:root:Attempt City Build
+INFO:root:69 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 70 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516CAA30> is (21, 12)
+INFO:root:----- turn = 71 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 72 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 73 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 74 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 75 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 76 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 77 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 78 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 79 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 80 ----- 
+INFO:root:----- turn = 81 ----- 
+INFO:root:----- turn = 82 ----- 
+INFO:root:----- turn = 83 ----- 
+INFO:root:----- turn = 84 ----- 
+INFO:root:Attempt City Build
+INFO:root:84 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 11), dx = 3, dy = 1
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 85 ----- 
+INFO:root:----- turn = 86 ----- 
+INFO:root:Attempt City Build
+INFO:root:86 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 87 ----- 
+INFO:root:Attempt City Build
+INFO:root:87 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 88 ----- 
+INFO:root:Attempt City Build
+INFO:root:88 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 89 ----- 
+INFO:root:Attempt City Build
+INFO:root:89 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 90 ----- 
+INFO:root:Attempt City Build
+INFO:root:90 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 91 ----- 
+INFO:root:Attempt City Build
+INFO:root:91 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 92 ----- 
+INFO:root:Attempt City Build
+INFO:root:92 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 93 ----- 
+INFO:root:Attempt City Build
+INFO:root:93 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 94 ----- 
+INFO:root:Attempt City Build
+INFO:root:94 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 95 ----- 
+INFO:root:Attempt City Build
+INFO:root:95 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 96 ----- 
+INFO:root:Attempt City Build
+INFO:root:96 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 97 ----- 
+INFO:root:Attempt City Build
+INFO:root:97 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 98 ----- 
+INFO:root:Attempt City Build
+INFO:root:98 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 99 ----- 
+INFO:root:Attempt City Build
+INFO:root:99 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 100 ----- 
+INFO:root:Attempt City Build
+INFO:root:100 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 101 ----- 
+INFO:root:Attempt City Build
+INFO:root:101 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 102 ----- 
+INFO:root:Attempt City Build
+INFO:root:102 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 103 ----- 
+INFO:root:Attempt City Build
+INFO:root:103 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 104 ----- 
+INFO:root:Attempt City Build
+INFO:root:104 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 105 ----- 
+INFO:root:Attempt City Build
+INFO:root:105 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 106 ----- 
+INFO:root:Attempt City Build
+INFO:root:106 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 107 ----- 
+INFO:root:Attempt City Build
+INFO:root:107 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 108 ----- 
+INFO:root:Attempt City Build
+INFO:root:108 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 109 ----- 
+INFO:root:Attempt City Build
+INFO:root:109 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 110 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002475167A4C0> is (21, 12)
+INFO:root:----- turn = 111 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 112 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 113 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 114 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 115 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 116 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 117 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 118 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 119 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 120 ----- 
+INFO:root:----- turn = 121 ----- 
+INFO:root:----- turn = 122 ----- 
+INFO:root:----- turn = 123 ----- 
+INFO:root:Attempt City Build
+INFO:root:123 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 124 ----- 
+INFO:root:Attempt City Build
+INFO:root:124 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 125 ----- 
+INFO:root:Attempt City Build
+INFO:root:125 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 126 ----- 
+INFO:root:Attempt City Build
+INFO:root:126 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 127 ----- 
+INFO:root:Attempt City Build
+INFO:root:127 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 128 ----- 
+INFO:root:Attempt City Build
+INFO:root:128 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 129 ----- 
+INFO:root:Attempt City Build
+INFO:root:129 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 130 ----- 
+INFO:root:Attempt City Build
+INFO:root:130 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 131 ----- 
+INFO:root:Attempt City Build
+INFO:root:131 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 132 ----- 
+INFO:root:Attempt City Build
+INFO:root:132 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 133 ----- 
+INFO:root:Attempt City Build
+INFO:root:133 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 134 ----- 
+INFO:root:Attempt City Build
+INFO:root:134 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 135 ----- 
+INFO:root:Attempt City Build
+INFO:root:135 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 136 ----- 
+INFO:root:Attempt City Build
+INFO:root:136 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 137 ----- 
+INFO:root:Attempt City Build
+INFO:root:137 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 138 ----- 
+INFO:root:Attempt City Build
+INFO:root:138 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 139 ----- 
+INFO:root:Attempt City Build
+INFO:root:139 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 140 ----- 
+INFO:root:Attempt City Build
+INFO:root:140 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 141 ----- 
+INFO:root:Attempt City Build
+INFO:root:141 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 142 ----- 
+INFO:root:Attempt City Build
+INFO:root:142 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 143 ----- 
+INFO:root:Attempt City Build
+INFO:root:143 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 144 ----- 
+INFO:root:Attempt City Build
+INFO:root:144 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 145 ----- 
+INFO:root:Attempt City Build
+INFO:root:145 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 146 ----- 
+INFO:root:Attempt City Build
+INFO:root:146 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 147 ----- 
+INFO:root:Attempt City Build
+INFO:root:147 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 148 ----- 
+INFO:root:Attempt City Build
+INFO:root:148 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 149 ----- 
+INFO:root:Attempt City Build
+INFO:root:149 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (20, 12), dx = 3, dy = 0
+INFO:root:moving to [20, 12]
+INFO:root:build: Moving in Dir ['c']
+INFO:root:----- turn = 150 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024751699520> is (21, 12)
+INFO:root:----- turn = 151 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 152 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 153 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 154 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 155 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 156 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 157 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 158 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 159 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 160 ----- 
+INFO:root:----- turn = 161 ----- 
+INFO:root:----- turn = 162 ----- 
+INFO:root:----- turn = 163 ----- 
+INFO:root:----- turn = 164 ----- 
+INFO:root:Attempt City Build
+INFO:root:164 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (22, 11), dx = 1, dy = 1
+INFO:root:moving to [23, 10]
+INFO:root:build: Moving in Dir ['e']
+INFO:root:----- turn = 165 ----- 
+INFO:root:----- turn = 166 ----- 
+INFO:root:Attempt City Build
+INFO:root:166 Moving to  Build location = (23, 12)
+INFO:root:unit pos = (23, 11), dx = 0, dy = 1
+INFO:root:moving to [23, 12]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 167 ----- 
+INFO:root:----- turn = 168 ----- 
+INFO:root:Attempt City Build
+INFO:root:168 build: At Location Building City
+INFO:root:----- turn = 169 ----- 
+INFO:root:Building Worker
+INFO:root:----- turn = 170 ----- 
+INFO:root:----- turn = 171 ----- 
+INFO:root:----- turn = 172 ----- 
+INFO:root:----- turn = 173 ----- 
+INFO:root:Attempt City Build
+INFO:root:Nearest City is [21, 12]
+INFO:root:(21, 10) has c_val=15
+INFO:root:(20, 11) has c_val=0
+INFO:root:(21, 11) has c_val=0
+INFO:root:(22, 11) has c_val=0
+INFO:root:(19, 12) has c_val=3
+INFO:root:(20, 12) has c_val=12
+INFO:root:(21, 12) has c_val=0
+INFO:root:(22, 12) has c_val=0
+INFO:root:(23, 12) has c_val=0
+INFO:root:(20, 13) has c_val=8
+INFO:root:(21, 13) has c_val=0
+INFO:root:(22, 13) has c_val=0
+INFO:root:(21, 14) has c_val=10
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x00000247516AB580> with best_loc_val=15
+INFO:root:173 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (22, 11), dx = -1, dy = -1
+INFO:root:moving to [22, 10]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 174 ----- 
+INFO:root:----- turn = 175 ----- 
+INFO:root:Attempt City Build
+INFO:root:175 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (22, 10), dx = -1, dy = 0
+INFO:root:moving to [21, 10]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 176 ----- 
+INFO:root:----- turn = 177 ----- 
+INFO:root:Attempt City Build
+INFO:root:177 build: At Location Building City
+INFO:root:----- turn = 178 ----- 
+INFO:root:Building Worker
+INFO:root:----- turn = 179 ----- 
+INFO:root:----- turn = 180 ----- 
+INFO:root:----- turn = 181 ----- 
+INFO:root:----- turn = 182 ----- 
+INFO:root:----- turn = 183 ----- 
+INFO:root:----- turn = 184 ----- 
+INFO:root:----- turn = 185 ----- 
+INFO:root:----- turn = 186 ----- 
+INFO:root:----- turn = 187 ----- 
+INFO:root:----- turn = 188 ----- 
+INFO:root:----- turn = 189 ----- 
+INFO:root:----- turn = 190 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516A10A0> is (21, 12)
+INFO:root:Its night
+INFO:root:----- turn = 191 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516903D0> is (21, 12)
+INFO:root:----- turn = 192 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002473A95AEE0> is (21, 12)
+INFO:root:----- turn = 193 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516B0460> is (21, 12)
+INFO:root:----- turn = 194 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024751690F40> is (21, 12)
+INFO:root:----- turn = 195 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002473A95AE20> is (21, 12)
+INFO:root:----- turn = 196 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 197 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 198 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 199 ----- 
+INFO:root:Its night
+INFO:root:----- turn = 200 ----- 
+INFO:root:----- turn = 201 ----- 
+INFO:root:----- turn = 202 ----- 
+INFO:root:----- turn = 203 ----- 
+INFO:root:----- turn = 204 ----- 
+INFO:root:Attempt City Build
+INFO:root:Nearest City is [21, 12]
+INFO:root:(21, 10) has c_val=15
+INFO:root:(20, 11) has c_val=0
+INFO:root:(21, 11) has c_val=0
+INFO:root:(22, 11) has c_val=0
+INFO:root:(19, 12) has c_val=3
+INFO:root:(20, 12) has c_val=12
+INFO:root:(21, 12) has c_val=0
+INFO:root:(22, 12) has c_val=0
+INFO:root:(23, 12) has c_val=14
+INFO:root:(20, 13) has c_val=8
+INFO:root:(21, 13) has c_val=0
+INFO:root:(22, 13) has c_val=0
+INFO:root:(21, 14) has c_val=10
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x0000024750C6B430> with best_loc_val=15
+INFO:root:204 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (22, 11), dx = -1, dy = -1
+INFO:root:moving to [22, 10]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 205 ----- 
+INFO:root:----- turn = 206 ----- 
+INFO:root:Attempt City Build
+INFO:root:206 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (22, 10), dx = -1, dy = 0
+INFO:root:moving to [21, 10]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 207 ----- 
+INFO:root:----- turn = 208 ----- 
+INFO:root:Attempt City Build
+INFO:root:208 build: At Location Building City
+INFO:root:----- turn = 209 ----- 
+INFO:root:Building Worker
+INFO:root:----- turn = 210 ----- 
+INFO:root:----- turn = 211 ----- 
+INFO:root:----- turn = 212 ----- 
+INFO:root:----- turn = 213 ----- 
+INFO:root:----- turn = 214 ----- 
+INFO:root:----- turn = 215 ----- 
+INFO:root:----- turn = 216 ----- 
+INFO:root:----- turn = 217 ----- 
+INFO:root:----- turn = 218 ----- 
+INFO:root:----- turn = 219 ----- 
+INFO:root:----- turn = 220 ----- 
+INFO:root:----- turn = 221 ----- 
+INFO:root:----- turn = 222 ----- 
+INFO:root:----- turn = 223 ----- 
+INFO:root:----- turn = 224 ----- 
+INFO:root:----- turn = 225 ----- 
+INFO:root:----- turn = 226 ----- 
+INFO:root:----- turn = 227 ----- 
+INFO:root:----- turn = 228 ----- 
+INFO:root:----- turn = 229 ----- 
+INFO:root:----- turn = 230 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516A89D0> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516A8A60> is (21, 10)
+INFO:root:----- turn = 231 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516B02E0> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516B08B0> is (21, 12)
+INFO:root:----- turn = 232 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002473AA812B0> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002473AA81100> is (21, 12)
+INFO:root:----- turn = 233 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002473A95AF70> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002473A95ADC0> is (21, 12)
+INFO:root:----- turn = 234 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024750C79FA0> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024750C79760> is (21, 12)
+INFO:root:----- turn = 235 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024751690880> is (21, 12)
+INFO:root:----- turn = 236 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024751695880> is (21, 12)
+INFO:root:----- turn = 237 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002475168D8B0> is (21, 12)
+INFO:root:----- turn = 238 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516534C0> is (21, 12)
+INFO:root:----- turn = 239 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002473AC03070> is (21, 12)
+INFO:root:----- turn = 240 ----- 
+INFO:root:----- turn = 241 ----- 
+INFO:root:----- turn = 242 ----- 
+INFO:root:----- turn = 243 ----- 
+INFO:root:----- turn = 244 ----- 
+INFO:root:Attempt City Build
+INFO:root:Nearest City is [21, 12]
+INFO:root:(21, 10) has c_val=14
+INFO:root:(20, 11) has c_val=9
+INFO:root:(21, 11) has c_val=0
+INFO:root:(22, 11) has c_val=0
+INFO:root:(19, 12) has c_val=2
+INFO:root:(20, 12) has c_val=9
+INFO:root:(21, 12) has c_val=0
+INFO:root:(22, 12) has c_val=0
+INFO:root:(23, 12) has c_val=14
+INFO:root:(20, 13) has c_val=7
+INFO:root:(21, 13) has c_val=0
+INFO:root:(22, 13) has c_val=0
+INFO:root:(21, 14) has c_val=10
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x000002475167ABE0> with best_loc_val=14
+INFO:root:244 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (22, 13), dx = -1, dy = -3
+INFO:root:moving to [21, 14]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 245 ----- 
+INFO:root:----- turn = 246 ----- 
+INFO:root:Attempt City Build
+INFO:root:246 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 13), dx = 0, dy = -3
+INFO:root:moving to [21, 12]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 247 ----- 
+INFO:root:----- turn = 248 ----- 
+INFO:root:----- turn = 249 ----- 
+INFO:root:----- turn = 250 ----- 
+INFO:root:----- turn = 251 ----- 
+INFO:root:----- turn = 252 ----- 
+INFO:root:----- turn = 253 ----- 
+INFO:root:----- turn = 254 ----- 
+INFO:root:----- turn = 255 ----- 
+INFO:root:Attempt City Build
+INFO:root:255 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (22, 13), dx = -1, dy = -3
+INFO:root:moving to [21, 14]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 256 ----- 
+INFO:root:----- turn = 257 ----- 
+INFO:root:Attempt City Build
+INFO:root:257 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 13), dx = 0, dy = -3
+INFO:root:moving to [21, 12]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 258 ----- 
+INFO:root:----- turn = 259 ----- 
+INFO:root:----- turn = 260 ----- 
+INFO:root:----- turn = 261 ----- 
+INFO:root:----- turn = 262 ----- 
+INFO:root:----- turn = 263 ----- 
+INFO:root:----- turn = 264 ----- 
+INFO:root:----- turn = 265 ----- 
+INFO:root:----- turn = 266 ----- 
+INFO:root:----- turn = 267 ----- 
+INFO:root:----- turn = 268 ----- 
+INFO:root:----- turn = 269 ----- 
+INFO:root:----- turn = 270 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516B06D0> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516B0A90> is (21, 12)
+INFO:root:----- turn = 271 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002475169AE50> is (21, 12)
+INFO:root:----- turn = 272 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024750C79A90> is (21, 12)
+INFO:root:----- turn = 273 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516A8820> is (21, 12)
+INFO:root:----- turn = 274 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024751690130> is (21, 12)
+INFO:root:----- turn = 275 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024750C66CA0> is (21, 12)
+INFO:root:----- turn = 276 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024750C6DA60> is (21, 12)
+INFO:root:----- turn = 277 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002475169F2E0> is (21, 12)
+INFO:root:----- turn = 278 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002475167A880> is (21, 12)
+INFO:root:----- turn = 279 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002475168BC70> is (21, 12)
+INFO:root:----- turn = 280 ----- 
+INFO:root:----- turn = 281 ----- 
+INFO:root:----- turn = 282 ----- 
+INFO:root:----- turn = 283 ----- 
+INFO:root:----- turn = 284 ----- 
+INFO:root:----- turn = 285 ----- 
+INFO:root:Attempt City Build
+INFO:root:285 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 286 ----- 
+INFO:root:Attempt City Build
+INFO:root:286 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 287 ----- 
+INFO:root:Attempt City Build
+INFO:root:287 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 288 ----- 
+INFO:root:Attempt City Build
+INFO:root:288 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 289 ----- 
+INFO:root:Attempt City Build
+INFO:root:289 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 290 ----- 
+INFO:root:Attempt City Build
+INFO:root:290 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 291 ----- 
+INFO:root:Attempt City Build
+INFO:root:291 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 292 ----- 
+INFO:root:Attempt City Build
+INFO:root:292 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 293 ----- 
+INFO:root:Attempt City Build
+INFO:root:293 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 294 ----- 
+INFO:root:Attempt City Build
+INFO:root:294 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 295 ----- 
+INFO:root:Attempt City Build
+INFO:root:295 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 296 ----- 
+INFO:root:Attempt City Build
+INFO:root:296 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 297 ----- 
+INFO:root:Attempt City Build
+INFO:root:297 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 298 ----- 
+INFO:root:Attempt City Build
+INFO:root:298 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 299 ----- 
+INFO:root:Attempt City Build
+INFO:root:299 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 300 ----- 
+INFO:root:Attempt City Build
+INFO:root:300 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 301 ----- 
+INFO:root:Attempt City Build
+INFO:root:301 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 302 ----- 
+INFO:root:Attempt City Build
+INFO:root:302 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 303 ----- 
+INFO:root:Attempt City Build
+INFO:root:303 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 304 ----- 
+INFO:root:Attempt City Build
+INFO:root:304 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 305 ----- 
+INFO:root:Attempt City Build
+INFO:root:305 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 306 ----- 
+INFO:root:Attempt City Build
+INFO:root:306 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 307 ----- 
+INFO:root:Attempt City Build
+INFO:root:307 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 308 ----- 
+INFO:root:Attempt City Build
+INFO:root:308 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 309 ----- 
+INFO:root:Attempt City Build
+INFO:root:309 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 14), dx = 0, dy = -4
+INFO:root:moving to [21, 13]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 310 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516AA610> is (21, 12)
+INFO:root:Its night
+INFO:root:----- turn = 311 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002475168DB50> is (21, 12)
+INFO:root:Its night
+INFO:root:----- turn = 312 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002475167A850> is (21, 12)
+INFO:root:Its night
+INFO:root:----- turn = 313 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002475169A3A0> is (21, 12)
+INFO:root:Its night
+INFO:root:----- turn = 314 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516BD490> is (21, 12)
+INFO:root:Its night
+INFO:root:----- turn = 315 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 316 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 317 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 318 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 319 ----- 
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 320 ----- 
+INFO:root:----- turn = 321 ----- 
+INFO:root:----- turn = 322 ----- 
+INFO:root:----- turn = 323 ----- 
+INFO:root:----- turn = 324 ----- 
+INFO:root:----- turn = 325 ----- 
+INFO:root:----- turn = 326 ----- 
+INFO:root:----- turn = 327 ----- 
+INFO:root:----- turn = 328 ----- 
+INFO:root:----- turn = 329 ----- 
+INFO:root:----- turn = 330 ----- 
+INFO:root:----- turn = 331 ----- 
+INFO:root:----- turn = 332 ----- 
+INFO:root:----- turn = 333 ----- 
+INFO:root:----- turn = 334 ----- 
+INFO:root:----- turn = 335 ----- 
+INFO:root:----- turn = 336 ----- 
+INFO:root:----- turn = 337 ----- 
+INFO:root:----- turn = 338 ----- 
+INFO:root:Attempt City Build
+INFO:root:338 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (17, 17), dx = 4, dy = -7
+INFO:root:moving to [18, 18]
+INFO:root:build: Moving in Dir ['e']
+INFO:root:----- turn = 339 ----- 
+INFO:root:Attempt City Build
+INFO:root:339 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (17, 17), dx = 4, dy = -7
+INFO:root:moving to [18, 18]
+INFO:root:build: Moving in Dir ['e']
+INFO:root:----- turn = 340 ----- 
+INFO:root:----- turn = 341 ----- 
+INFO:root:Attempt City Build
+INFO:root:341 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (18, 17), dx = 3, dy = -7
+INFO:root:moving to [19, 18]
+INFO:root:build: Moving in Dir ['e']
+INFO:root:----- turn = 342 ----- 
+INFO:root:----- turn = 343 ----- 
+INFO:root:Attempt City Build
+INFO:root:343 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (19, 17), dx = 2, dy = -7
+INFO:root:moving to [20, 18]
+INFO:root:build: Moving in Dir ['e']
+INFO:root:----- turn = 344 ----- 
+INFO:root:----- turn = 345 ----- 
+INFO:root:Attempt City Build
+INFO:root:345 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (20, 17), dx = 1, dy = -7
+INFO:root:moving to [21, 18]
+INFO:root:build: Moving in Dir ['e']
+INFO:root:----- turn = 346 ----- 
+INFO:root:----- turn = 347 ----- 
+INFO:root:Attempt City Build
+INFO:root:347 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 17), dx = 0, dy = -7
+INFO:root:moving to [21, 16]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 348 ----- 
+INFO:root:----- turn = 349 ----- 
+INFO:root:Attempt City Build
+INFO:root:349 Moving to  Build location = (21, 10)
+INFO:root:unit pos = (21, 16), dx = 0, dy = -6
+INFO:root:moving to [21, 15]
+INFO:root:build: Moving in Dir ['n']
+INFO:root:----- turn = 350 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024751663A90> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516637F0> is (21, 12)
+INFO:root:----- turn = 351 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024751676EE0> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024751676EB0> is (21, 12)
+INFO:root:----- turn = 352 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024750C66E20> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024750C667C0> is (21, 12)
+INFO:root:----- turn = 353 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516B4100> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516B42B0> is (21, 12)
+INFO:root:----- turn = 354 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516A3040> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516A3130> is (21, 12)
+INFO:root:----- turn = 355 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516B03D0> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516B0400> is (21, 12)
+INFO:root:----- turn = 356 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024750C6D340> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002475168B880> is (21, 12)
+INFO:root:----- turn = 357 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002475169FD90> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000002475169FF70> is (21, 12)
+INFO:root:----- turn = 358 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x0000024750C52E80> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516A6460> is (21, 12)
+INFO:root:----- turn = 359 ----- 
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516BFDF0> is (21, 12)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x00000247516BF4C0> is (21, 12)
+INFO:root:----- turn = 360 ----- 
