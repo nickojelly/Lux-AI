@@ -111,54 +111,63 @@ def get_simple_path(unit, dest):
 
 def get_better_path(unit, dest):
     global game_state
-    sign = lambda a: (a>0) - (a<0)
     (dx, dy) = (dest.pos.x-unit.pos.x, dest.pos.y-unit.pos.y)
-    num_moves = abs(dx)+abs(dy)
-    dirs = [ (-1,0), (1,0), (0,-1), (0,1) ]
     better_path = None
     path_list = [[game_state.map.get_cell_by_pos(unit.pos)]]
     visited = []
     log_function(f"---- get_better_path ----\nunit pos = {(unit.pos.x,unit.pos.y)} to {dest.pos.x,dest.pos.y}")
     while not better_path:
-        
+        full_new_path_list = []
+        log_function(f"{path_list=}")
         for p in path_list:
             new_path_list = []
             log_function(f"length of p {len(p)}")
+            log_function(f"{p=}")
             log_function("current path \n")
             curr_path_cor = []
             for n in p:
+                log_function(f"n pos = {n.pos.x, n.pos.y}")
                 curr_path_cor.append((n.pos.x, n.pos.y))
             log_function(f"{curr_path_cor=}")
             current_cell = p[-1]
             log_function(f" current cell = {current_cell.pos.x,current_cell.pos.y}")
             adj_cells = get_build_grid(current_cell,1)
 
-            for i in dirs:
-                log_function(f"{i=}")
+            for i in adj_cells:
+                log_function(f"i={i.pos.x,i.pos.y}")
                 try:
-                    check_cell = game_state.map.get_cell(current_cell.pos.x+i[0], current_cell.pos.y+i[1])
+                    check_cell = i
                     #log_function(f"check cell = {check_cell.pos.x, check_cell.pos.y}")
-                    if check_cell == dest:
+                    if check_cell.pos.equals(dest.pos):
                         better_path = p + [check_cell]
+                        log_function(f"***** best path found ***** {better_path=}")
+                        break
                     elif check_cell.citytile or check_cell in visited:
                         continue
                     else:
                         check_path = p
-                        log_function(f"1{check_path[0].pos.x,check_path[0].pos.y}")
+                        #log_function(f"1{check_path[0].pos.x,check_path[0].pos.y}")
                         check_path= p + [check_cell]
                         #log_function(f"2{check_path=}")
                         new_path_list.append(check_path)
                         visited.append(check_cell)
                 except Exception as e:
                     log_function(f"Better path ref out of index {str(e)}")
-        path_list = new_path_list
+            for j in new_path_list:
+                full_new_path_list.append(j)
+            
+        path_list = full_new_path_list
+        
         log_function("end of it\n\n")
     log_function(f"Best path from {(unit.pos.x,unit.pos.y)} to {dest.pos.x,dest.pos.y} is:")
     for i in better_path:
         log_function(f" ({i.pos.x,i.pos.y})")
-
-
-            
+    if len(better_path) >= 2:
+        log_function(f"next pos ({better_path[1].pos.x,better_path[1].pos.y})")
+        return better_path[1]
+    else:
+        log_function(f"next pos ({better_path[0].pos.x,better_path[0].pos.y})")
+        return better_path[0]
 
 
 
@@ -193,8 +202,8 @@ def build_city_action(game_state, player, unit):
         return unit.build_city()
     elif (build_location):
         log_function(f"{game_state.turn} Moving to  Build location = {build_location.pos}")
-        move_cell = get_simple_path(unit, build_location)
-        get_better_path(unit, build_location)
+        #move_cell = get_simple_path(unit, build_location)
+        move_cell = get_better_path(unit, build_location)
         move_dir = unit.pos.direction_to(move_cell.pos)
 
 
@@ -219,7 +228,7 @@ def get_build_grid(cell, dist):
     cell_build_val = 0
     for r in game_state.map.map:
         for c in r:
-            if cell.pos.distance_to(c.pos)<=dist:
+            if cell.pos.distance_to(c.pos)<=dist and cell.pos.distance_to(c.pos):
                 close_c_list.append(c)
     return close_c_list
 
@@ -247,7 +256,6 @@ def get_best_build_cell(cells):
             best_loc_val = c_val
     log_function(f"best location is {best_loc.pos=} with {best_loc_val=}")
     return best_loc
-    
 
 def city_stats(player):
     city_dict = player.cities
@@ -257,12 +265,6 @@ def city_stats(player):
         city_stats[0] = id
         city_stats[1] = city.fuel
         city_stats_np = np.insert(city_stats_np,0,city_stats)
-
-
-
-
-
-
 
 def agent(observation, configuration):
     global game_state
