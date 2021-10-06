@@ -1,0 +1,1301 @@
+INFO:root:----- turn = 0 ----- 
+
+INFO:root:----- turn = 1 ----- 
+
+INFO:root:----- turn = 2 ----- 
+
+INFO:root:----- turn = 3 ----- 
+
+INFO:root:----- turn = 4 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:Nearest City is [8, 13]
+INFO:root:: Checking [9, 13]
+INFO:root:: Checking [7, 13]
+INFO:root:4 Found [7, 13]
+INFO:root:4 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF1581C190>
+INFO:root:unit pos = (9, 12), dx = -2, dy = 1
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 5 ----- 
+
+INFO:root:----- turn = 6 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:6 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF1581C190>
+INFO:root:unit pos = (8, 12), dx = -1, dy = 1
+INFO:root:moving to [7, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 7 ----- 
+
+INFO:root:----- turn = 8 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:8 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF1581C190>
+INFO:root:unit pos = (7, 12), dx = 0, dy = 1
+INFO:root:moving to [7, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 9 ----- 
+
+INFO:root:----- turn = 10 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:10 build: At Location Building City
+INFO:root:----- turn = 11 ----- 
+
+INFO:root:Building Worker
+INFO:root:----- turn = 12 ----- 
+
+INFO:root:----- turn = 13 ----- 
+
+INFO:root:----- turn = 14 ----- 
+
+INFO:root:----- turn = 15 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:Nearest City is [8, 13]
+INFO:root:: Checking [9, 13]
+INFO:root:: Checking [7, 13]
+INFO:root:: Checking [8, 14]
+INFO:root:15 Found [8, 14]
+INFO:root:15 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 16 ----- 
+
+INFO:root:----- turn = 17 ----- 
+
+INFO:root:----- turn = 18 ----- 
+
+INFO:root:----- turn = 19 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:19 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 20 ----- 
+
+INFO:root:----- turn = 21 ----- 
+
+INFO:root:----- turn = 22 ----- 
+
+INFO:root:----- turn = 23 ----- 
+
+INFO:root:----- turn = 24 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:24 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 25 ----- 
+
+INFO:root:----- turn = 26 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:26 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 27 ----- 
+
+INFO:root:----- turn = 28 ----- 
+
+INFO:root:----- turn = 29 ----- 
+
+INFO:root:----- turn = 30 ----- 
+
+INFO:root:----- turn = 31 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1580CD30> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1580CE50> is (8, 13)
+INFO:root:----- turn = 32 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1580BC70> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 33 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15809D60> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 34 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15816820> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 35 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15822190> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 36 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 37 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 38 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 39 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 40 ----- 
+
+INFO:root:----- turn = 41 ----- 
+
+INFO:root:----- turn = 42 ----- 
+
+INFO:root:----- turn = 43 ----- 
+
+INFO:root:----- turn = 44 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:44 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 45 ----- 
+
+INFO:root:----- turn = 46 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:46 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 47 ----- 
+
+INFO:root:----- turn = 48 ----- 
+
+INFO:root:----- turn = 49 ----- 
+
+INFO:root:----- turn = 50 ----- 
+
+INFO:root:----- turn = 51 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:51 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 52 ----- 
+
+INFO:root:----- turn = 53 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:53 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 54 ----- 
+
+INFO:root:----- turn = 55 ----- 
+
+INFO:root:----- turn = 56 ----- 
+
+INFO:root:----- turn = 57 ----- 
+
+INFO:root:----- turn = 58 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:58 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 59 ----- 
+
+INFO:root:----- turn = 60 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:60 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 61 ----- 
+
+INFO:root:----- turn = 62 ----- 
+
+INFO:root:----- turn = 63 ----- 
+
+INFO:root:----- turn = 64 ----- 
+
+INFO:root:----- turn = 65 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:65 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 66 ----- 
+
+INFO:root:----- turn = 67 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:67 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 68 ----- 
+
+INFO:root:----- turn = 69 ----- 
+
+INFO:root:----- turn = 70 ----- 
+
+INFO:root:----- turn = 71 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15811190> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15811280> is (8, 13)
+INFO:root:----- turn = 72 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15822E50> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15822A00> is (8, 13)
+INFO:root:----- turn = 73 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15809310> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF158092B0> is (8, 13)
+INFO:root:----- turn = 74 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15818A00> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF157DA250> is (8, 13)
+INFO:root:----- turn = 75 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1581DB50> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 76 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15811580> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 77 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15822CD0> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 78 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15830BB0> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 79 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 80 ----- 
+
+INFO:root:----- turn = 81 ----- 
+
+INFO:root:----- turn = 82 ----- 
+
+INFO:root:----- turn = 83 ----- 
+
+INFO:root:----- turn = 84 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:84 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 85 ----- 
+
+INFO:root:----- turn = 86 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:86 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 87 ----- 
+
+INFO:root:----- turn = 88 ----- 
+
+INFO:root:----- turn = 89 ----- 
+
+INFO:root:----- turn = 90 ----- 
+
+INFO:root:----- turn = 91 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:91 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 92 ----- 
+
+INFO:root:----- turn = 93 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:93 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 94 ----- 
+
+INFO:root:----- turn = 95 ----- 
+
+INFO:root:----- turn = 96 ----- 
+
+INFO:root:----- turn = 97 ----- 
+
+INFO:root:----- turn = 98 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:98 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 99 ----- 
+
+INFO:root:----- turn = 100 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:100 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 101 ----- 
+
+INFO:root:----- turn = 102 ----- 
+
+INFO:root:----- turn = 103 ----- 
+
+INFO:root:----- turn = 104 ----- 
+
+INFO:root:----- turn = 105 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:105 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 106 ----- 
+
+INFO:root:----- turn = 107 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:107 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 108 ----- 
+
+INFO:root:----- turn = 109 ----- 
+
+INFO:root:----- turn = 110 ----- 
+
+INFO:root:----- turn = 111 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15821E50> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15821F40> is (8, 13)
+INFO:root:----- turn = 112 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1580FAF0> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1580FC10> is (8, 13)
+INFO:root:----- turn = 113 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1577AE80> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1577ACD0> is (8, 13)
+INFO:root:----- turn = 114 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15829F70> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1581A340> is (8, 13)
+INFO:root:----- turn = 115 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15811B50> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 116 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1580BDC0> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 117 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15822D60> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 118 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15828F70> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 119 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 120 ----- 
+
+INFO:root:----- turn = 121 ----- 
+
+INFO:root:----- turn = 122 ----- 
+
+INFO:root:----- turn = 123 ----- 
+
+INFO:root:----- turn = 124 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:124 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 125 ----- 
+
+INFO:root:----- turn = 126 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:126 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 127 ----- 
+
+INFO:root:----- turn = 128 ----- 
+
+INFO:root:----- turn = 129 ----- 
+
+INFO:root:----- turn = 130 ----- 
+
+INFO:root:----- turn = 131 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:131 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 132 ----- 
+
+INFO:root:----- turn = 133 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:133 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 134 ----- 
+
+INFO:root:----- turn = 135 ----- 
+
+INFO:root:----- turn = 136 ----- 
+
+INFO:root:----- turn = 137 ----- 
+
+INFO:root:----- turn = 138 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:138 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 139 ----- 
+
+INFO:root:----- turn = 140 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:140 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 141 ----- 
+
+INFO:root:----- turn = 142 ----- 
+
+INFO:root:----- turn = 143 ----- 
+
+INFO:root:----- turn = 144 ----- 
+
+INFO:root:----- turn = 145 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:145 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 146 ----- 
+
+INFO:root:----- turn = 147 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:147 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 148 ----- 
+
+INFO:root:----- turn = 149 ----- 
+
+INFO:root:----- turn = 150 ----- 
+
+INFO:root:----- turn = 151 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15811940> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15811DC0> is (8, 13)
+INFO:root:----- turn = 152 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF158272E0> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15827CD0> is (8, 13)
+INFO:root:----- turn = 153 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15822850> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15822E80> is (8, 13)
+INFO:root:----- turn = 154 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1581AE80> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1581AF70> is (8, 13)
+INFO:root:----- turn = 155 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15828CD0> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15828910> is (8, 13)
+INFO:root:----- turn = 156 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15828580> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 157 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1582FAF0> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 158 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15806850> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 159 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15819730> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 160 ----- 
+
+INFO:root:----- turn = 161 ----- 
+
+INFO:root:----- turn = 162 ----- 
+
+INFO:root:----- turn = 163 ----- 
+
+INFO:root:----- turn = 164 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:164 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 165 ----- 
+
+INFO:root:----- turn = 166 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:166 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 167 ----- 
+
+INFO:root:----- turn = 168 ----- 
+
+INFO:root:----- turn = 169 ----- 
+
+INFO:root:----- turn = 170 ----- 
+
+INFO:root:----- turn = 171 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:171 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 172 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:172 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 173 ----- 
+
+INFO:root:----- turn = 174 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:174 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 175 ----- 
+
+INFO:root:----- turn = 176 ----- 
+
+INFO:root:----- turn = 177 ----- 
+
+INFO:root:----- turn = 178 ----- 
+
+INFO:root:----- turn = 179 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:179 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 180 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:180 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 181 ----- 
+
+INFO:root:----- turn = 182 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:182 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 183 ----- 
+
+INFO:root:----- turn = 184 ----- 
+
+INFO:root:----- turn = 185 ----- 
+
+INFO:root:----- turn = 186 ----- 
+
+INFO:root:----- turn = 187 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:187 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 188 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:188 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 12), dx = -1, dy = 2
+INFO:root:moving to [8, 11]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 189 ----- 
+
+INFO:root:----- turn = 190 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:190 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (8, 12), dx = 0, dy = 2
+INFO:root:moving to [8, 13]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 191 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15817D60> is (8, 13)
+INFO:root:----- turn = 192 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF158315B0> is (8, 13)
+INFO:root:----- turn = 193 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1582DAF0> is (8, 13)
+INFO:root:----- turn = 194 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1581A4F0> is (8, 13)
+INFO:root:----- turn = 195 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 196 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 197 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 198 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 199 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 200 ----- 
+
+INFO:root:----- turn = 201 ----- 
+
+INFO:root:----- turn = 202 ----- 
+
+INFO:root:----- turn = 203 ----- 
+
+INFO:root:----- turn = 204 ----- 
+
+INFO:root:----- turn = 205 ----- 
+
+INFO:root:----- turn = 206 ----- 
+
+INFO:root:----- turn = 207 ----- 
+
+INFO:root:----- turn = 208 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:208 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (12, 13), dx = -4, dy = 1
+INFO:root:moving to [11, 12]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 209 ----- 
+
+INFO:root:----- turn = 210 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:210 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (11, 13), dx = -3, dy = 1
+INFO:root:moving to [10, 12]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 211 ----- 
+
+INFO:root:----- turn = 212 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:212 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (10, 13), dx = -2, dy = 1
+INFO:root:moving to [9, 12]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 213 ----- 
+
+INFO:root:----- turn = 214 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:214 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 13), dx = -1, dy = 1
+INFO:root:moving to [9, 14]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 215 ----- 
+
+INFO:root:----- turn = 216 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:216 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF15822070>
+INFO:root:unit pos = (9, 14), dx = -1, dy = 0
+INFO:root:moving to [8, 14]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 217 ----- 
+
+INFO:root:----- turn = 218 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:218 build: At Location Building City
+INFO:root:----- turn = 219 ----- 
+
+INFO:root:Building Worker
+INFO:root:----- turn = 220 ----- 
+
+INFO:root:----- turn = 221 ----- 
+
+INFO:root:----- turn = 222 ----- 
+
+INFO:root:----- turn = 223 ----- 
+
+INFO:root:----- turn = 224 ----- 
+
+INFO:root:----- turn = 225 ----- 
+
+INFO:root:----- turn = 226 ----- 
+
+INFO:root:----- turn = 227 ----- 
+
+INFO:root:----- turn = 228 ----- 
+
+INFO:root:----- turn = 229 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:Nearest City is [8, 13]
+INFO:root:: Checking [9, 13]
+INFO:root:229 Found [9, 13]
+INFO:root:229 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF1581CA60>
+INFO:root:unit pos = (12, 13), dx = -3, dy = 0
+INFO:root:moving to [11, 13]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 230 ----- 
+
+INFO:root:----- turn = 231 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1581AC70> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1581ABE0> is (8, 13)
+INFO:root:----- turn = 232 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1580A1C0> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1580A310> is (8, 13)
+INFO:root:----- turn = 233 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15813730> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1582C8E0> is (8, 13)
+INFO:root:----- turn = 234 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1582C6A0> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1582C730> is (8, 13)
+INFO:root:----- turn = 235 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF158315B0> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15831610> is (8, 13)
+INFO:root:----- turn = 236 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15808970> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15808A60> is (8, 13)
+INFO:root:----- turn = 237 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15811130> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF158111F0> is (8, 13)
+INFO:root:----- turn = 238 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1581C8E0> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1581C9D0> is (8, 13)
+INFO:root:----- turn = 239 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15830100> is (8, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF158301C0> is (8, 13)
+INFO:root:----- turn = 240 ----- 
+
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:----- turn = 241 ----- 
+
+INFO:root:----- turn = 242 ----- 
+
+INFO:root:----- turn = 243 ----- 
+
+INFO:root:----- turn = 244 ----- 
+
+INFO:root:----- turn = 245 ----- 
+
+INFO:root:----- turn = 246 ----- 
+
+INFO:root:----- turn = 247 ----- 
+
+INFO:root:----- turn = 248 ----- 
+
+INFO:root:----- turn = 249 ----- 
+
+INFO:root:----- turn = 250 ----- 
+
+INFO:root:----- turn = 251 ----- 
+
+INFO:root:----- turn = 252 ----- 
+
+INFO:root:----- turn = 253 ----- 
+
+INFO:root:----- turn = 254 ----- 
+
+INFO:root:----- turn = 255 ----- 
+
+INFO:root:----- turn = 256 ----- 
+
+INFO:root:----- turn = 257 ----- 
+
+INFO:root:----- turn = 258 ----- 
+
+INFO:root:----- turn = 259 ----- 
+
+INFO:root:----- turn = 260 ----- 
+
+INFO:root:----- turn = 261 ----- 
+
+INFO:root:----- turn = 262 ----- 
+
+INFO:root:----- turn = 263 ----- 
+
+INFO:root:----- turn = 264 ----- 
+
+INFO:root:----- turn = 265 ----- 
+
+INFO:root:----- turn = 266 ----- 
+
+INFO:root:----- turn = 267 ----- 
+
+INFO:root:----- turn = 268 ----- 
+
+INFO:root:----- turn = 269 ----- 
+
+INFO:root:----- turn = 270 ----- 
+
+INFO:root:----- turn = 271 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1580FDC0> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 272 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1581C4C0> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 273 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15807C70> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 274 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15808D90> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 275 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1582D280> is (8, 13)
+INFO:root:Its night
+INFO:root:----- turn = 276 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 277 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 278 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 279 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 280 ----- 
+
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:----- turn = 281 ----- 
+
+INFO:root:----- turn = 282 ----- 
+
+INFO:root:----- turn = 283 ----- 
+
+INFO:root:----- turn = 284 ----- 
+
+INFO:root:----- turn = 285 ----- 
+
+INFO:root:----- turn = 286 ----- 
+
+INFO:root:----- turn = 287 ----- 
+
+INFO:root:----- turn = 288 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:288 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF1581CA60>
+INFO:root:unit pos = (12, 13), dx = -3, dy = 0
+INFO:root:moving to [11, 13]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 289 ----- 
+
+INFO:root:----- turn = 290 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:290 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF1581CA60>
+INFO:root:unit pos = (11, 13), dx = -2, dy = 0
+INFO:root:moving to [10, 13]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 291 ----- 
+
+INFO:root:----- turn = 292 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:292 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF1581CA60>
+INFO:root:unit pos = (10, 13), dx = -1, dy = 0
+INFO:root:moving to [9, 13]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 293 ----- 
+
+INFO:root:----- turn = 294 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:294 build: At Location Building City
+INFO:root:----- turn = 295 ----- 
+
+INFO:root:Building Worker
+INFO:root:----- turn = 296 ----- 
+
+INFO:root:----- turn = 297 ----- 
+
+INFO:root:----- turn = 298 ----- 
+
+INFO:root:----- turn = 299 ----- 
+
+INFO:root:----- turn = 300 ----- 
+
+INFO:root:----- turn = 301 ----- 
+
+INFO:root:----- turn = 302 ----- 
+
+INFO:root:----- turn = 303 ----- 
+
+INFO:root:----- turn = 304 ----- 
+
+INFO:root:----- turn = 305 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:Nearest City is [9, 13]
+INFO:root:: Checking [10, 13]
+INFO:root:305 Found [10, 13]
+INFO:root:305 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF158314F0>
+INFO:root:unit pos = (12, 11), dx = -2, dy = 2
+INFO:root:moving to [11, 10]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 306 ----- 
+
+INFO:root:----- turn = 307 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:307 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF158314F0>
+INFO:root:unit pos = (11, 11), dx = -1, dy = 2
+INFO:root:moving to [10, 10]
+INFO:root:build: Moving in Dir ['w']
+INFO:root:----- turn = 308 ----- 
+
+INFO:root:----- turn = 309 ----- 
+
+INFO:root:Attempt City Build
+INFO:root:309 Moving to  Build location = <lux.game_map.Cell object at 0x000001EF158314F0>
+INFO:root:unit pos = (10, 11), dx = 0, dy = 2
+INFO:root:moving to [10, 12]
+INFO:root:build: Moving in Dir ['s']
+INFO:root:----- turn = 310 ----- 
+
+INFO:root:----- turn = 311 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1582DCA0> is (9, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1582DF40> is (9, 13)
+INFO:root:Its night
+INFO:root:----- turn = 312 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15811D30> is (9, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15811B80> is (9, 13)
+INFO:root:Its night
+INFO:root:----- turn = 313 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF158285B0> is (9, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15828AC0> is (9, 13)
+INFO:root:Its night
+INFO:root:----- turn = 314 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1580B4C0> is (9, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1580BA30> is (9, 13)
+INFO:root:Its night
+INFO:root:----- turn = 315 ----- 
+
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1581F910> is (9, 13)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1581FCD0> is (9, 13)
+INFO:root:Its night
+INFO:root:----- turn = 316 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF1580F5B0> is (9, 13)
+INFO:root:Its night
+INFO:root:----- turn = 317 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF15831E80> is (9, 13)
+INFO:root:Its night
+INFO:root:----- turn = 318 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF156810A0> is (9, 13)
+INFO:root:Its night
+INFO:root:----- turn = 319 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF158110A0> is (9, 13)
+INFO:root:Its night
+INFO:root:----- turn = 320 ----- 
+
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:----- turn = 321 ----- 
+
+INFO:root:----- turn = 322 ----- 
+
+INFO:root:----- turn = 323 ----- 
+
+INFO:root:----- turn = 324 ----- 
+
+INFO:root:----- turn = 325 ----- 
+
+INFO:root:----- turn = 326 ----- 
+
+INFO:root:----- turn = 327 ----- 
+
+INFO:root:----- turn = 328 ----- 
+
+INFO:root:----- turn = 329 ----- 
+
+INFO:root:----- turn = 330 ----- 
+
+INFO:root:----- turn = 331 ----- 
+
+INFO:root:----- turn = 332 ----- 
+
+INFO:root:----- turn = 333 ----- 
+
+INFO:root:----- turn = 334 ----- 
+
+INFO:root:----- turn = 335 ----- 
+
+INFO:root:----- turn = 336 ----- 
+
+INFO:root:----- turn = 337 ----- 
+
+INFO:root:----- turn = 338 ----- 
+
+INFO:root:----- turn = 339 ----- 
+
+INFO:root:----- turn = 340 ----- 
+
+INFO:root:----- turn = 341 ----- 
+
+INFO:root:----- turn = 342 ----- 
+
+INFO:root:----- turn = 343 ----- 
+
+INFO:root:----- turn = 344 ----- 
+
+INFO:root:----- turn = 345 ----- 
+
+INFO:root:----- turn = 346 ----- 
+
+INFO:root:----- turn = 347 ----- 
+
+INFO:root:----- turn = 348 ----- 
+
+INFO:root:----- turn = 349 ----- 
+
+INFO:root:----- turn = 350 ----- 
+
+INFO:root:----- turn = 351 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001EF158170D0> is (9, 13)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 352 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 353 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 354 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 355 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 356 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 357 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 358 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 359 ----- 
+
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 360 ----- 
+

@@ -1,0 +1,10 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\agent.py", line 335, in agent
+    city_tiles2 = [citytile for city in player.cities.values for citytile in city]
+TypeError: 'builtin_function_or_method' object is not iterable
+Agent timed out

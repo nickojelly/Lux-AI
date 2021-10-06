@@ -24,6 +24,7 @@ night_flag = False
 logging_str = []
 
 def log_function(log_entry):
+    return None
     global logging_str
     logging_str.append(log_entry)
     logging.info(log_entry)
@@ -115,26 +116,26 @@ def get_better_path(unit, dest):
     better_path = None
     path_list = [[game_state.map.get_cell_by_pos(unit.pos)]]
     visited = []
-    log_function(f"---- get_better_path ----\nunit pos = {(unit.pos.x,unit.pos.y)} to {dest.pos.x,dest.pos.y}")
+    #log_function(f"---- get_better_path ----\nunit pos = {(unit.pos.x,unit.pos.y)} to {dest.pos.x,dest.pos.y}")
     while not better_path:
         full_new_path_list = []
-        log_function(f"{path_list=}")
+        #log_function(f"{path_list=}")
         for p in path_list:
             new_path_list = []
-            log_function(f"length of p {len(p)}")
-            log_function(f"{p=}")
-            log_function("current path \n")
+            #log_function(f"length of p {len(p)}")
+            #log_function(f"{p=}")
+            #log_function("current path \n")
             curr_path_cor = []
             for n in p:
-                log_function(f"n pos = {n.pos.x, n.pos.y}")
+                #log_function(f"n pos = {n.pos.x, n.pos.y}")
                 curr_path_cor.append((n.pos.x, n.pos.y))
-            log_function(f"{curr_path_cor=}")
+            #log_function(f"{curr_path_cor=}")
             current_cell = p[-1]
-            log_function(f" current cell = {current_cell.pos.x,current_cell.pos.y}")
+            #log_function(f" current cell = {current_cell.pos.x,current_cell.pos.y}")
             adj_cells = get_build_grid(current_cell,1)
 
             for i in adj_cells:
-                log_function(f"i={i.pos.x,i.pos.y}")
+                #log_function(f"i={i.pos.x,i.pos.y}")
                 try:
                     check_cell = i
                     #log_function(f"check cell = {check_cell.pos.x, check_cell.pos.y}")
@@ -158,7 +159,7 @@ def get_better_path(unit, dest):
             
         path_list = full_new_path_list
         
-        log_function("end of it\n\n")
+        #log_function("end of it\n\n")
     log_function(f"Best path from {(unit.pos.x,unit.pos.y)} to {dest.pos.x,dest.pos.y} is:")
     for i in better_path:
         log_function(f" ({i.pos.x,i.pos.y})")
@@ -188,7 +189,10 @@ def build_city_action(game_state, player, unit):
     empty_near = get_closest_city_tile(player,unit)
     build_dist = 2
     while build_location==None:
-        log_function(f"Nearest City is {[empty_near.pos.x, empty_near.pos.y]}")
+        try:
+            log_function(f"Nearest City is {[empty_near.pos.x, empty_near.pos.y]}")
+        except Exception as e:
+            return DIRECTIONS.EAST
         possible_build_cells = get_build_grid(empty_near, build_dist)
         build_location = get_best_build_cell(possible_build_cells)
         if not build_location:
