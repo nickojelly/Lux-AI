@@ -1,0 +1,14 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\agent.py", line 373, in agent
+    closest_resource_tile = get_closest_resource(unit, resource_tiles, player) 
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\agent.py", line 61, in get_closest_resource
+    get_rescoure_cluster(closest_resource_tile, [])            
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\agent.py", line 275, in get_rescoure_cluster
+    log_function(f"Getting Resource Cluster: {cell.pos.x,cell.pos.y}")
+AttributeError: 'NoneType' object has no attribute 'pos'
+Agent timed out

@@ -1,7 +1,7 @@
 INFO:root:Move this turn:
 
 INFO:root:m u_1 n
-INFO:root:r 4 11
+INFO:root:r 5 11
 INFO:root:Move this turn:
 
 INFO:root:Move this turn:
@@ -27,630 +27,1852 @@ INFO:root:Move this turn:
 INFO:root:Move this turn:
 
 INFO:root:bcity u_1
-INFO:root:r 4 11
+INFO:root:r 5 11
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:bw 6 11
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
 INFO:root:Move this turn:
 
 INFO:root:m u_1 n
-INFO:root:bw 5 11
 INFO:root:Move this turn:
 
-INFO:root:m u_3 n
+INFO:root:m u_3 w
 INFO:root:Move this turn:
 
 INFO:root:m u_1 w
 INFO:root:Move this turn:
 
+INFO:root:m u_3 s
+INFO:root:Move this turn:
+
+INFO:root:bcity u_1
+INFO:root:m u_3 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:bw 6 10
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 s
+INFO:root:r 5 11
+INFO:root:Move this turn:
+
 INFO:root:m u_3 w
+INFO:root:m u_5 w
+INFO:root:r 6 11
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 e
+INFO:root:m u_5 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_5 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_5 n
+INFO:root:r 6 10
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 e
+INFO:root:m u_5 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:Move this turn:
+
+INFO:root:m u_3 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 s
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_5 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_5 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_5 s
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:Move this turn:
+
+INFO:root:bcity u_1
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:bw 6 12
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_9 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 e
+INFO:root:m u_5 w
+INFO:root:Move this turn:
+
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 s
+INFO:root:m u_5 n
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_5 e
+INFO:root:m u_9 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_9 e
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_5 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 w
+INFO:root:m u_9 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_9 e
+INFO:root:r 6 12
+INFO:root:Move this turn:
+
+INFO:root:m u_3 s
+INFO:root:m u_5 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 w
+INFO:root:m u_9 w
+INFO:root:Move this turn:
+
+INFO:root:m u_5 e
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:bcity u_1
+INFO:root:m u_3 e
+INFO:root:m u_5 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_5 e
+INFO:root:m u_9 w
+INFO:root:bw 5 10
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_5 w
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_5 e
+INFO:root:m u_9 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_5 e
+INFO:root:m u_9 w
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_9 e
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 e
+INFO:root:m u_9 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_3 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_9 e
 INFO:root:Move this turn:
 
 INFO:root:m u_1 e
 INFO:root:m u_3 w
+INFO:root:m u_9 e
 INFO:root:Move this turn:
 
+INFO:root:m u_3 e
+INFO:root:m u_5 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_3 e
+INFO:root:m u_9 w
+INFO:root:Move this turn:
+
+INFO:root:m u_5 e
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 w
+INFO:root:m u_9 e
+INFO:root:m u_12 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 e
+INFO:root:m u_5 e
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_9 w
+INFO:root:m u_12 e
 INFO:root:Move this turn:
 
 INFO:root:bcity u_1
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_1 w
-INFO:root:bw 5 10
-INFO:root:Move this turn:
-
-INFO:root:m u_3 w
 INFO:root:m u_5 w
+INFO:root:m u_9 e
+INFO:root:m u_12 e
 INFO:root:Move this turn:
 
-INFO:root:m u_1 w
-INFO:root:r 4 11
-INFO:root:Move this turn:
-
+INFO:root:m u_1 e
 INFO:root:m u_3 e
 INFO:root:m u_5 w
-INFO:root:r 5 11
-INFO:root:Move this turn:
-
-INFO:root:m u_1 s
-INFO:root:m u_3 w
-INFO:root:Move this turn:
-
-INFO:root:m u_1 s
-INFO:root:m u_3 w
-INFO:root:Move this turn:
-
-INFO:root:m u_1 s
-INFO:root:m u_3 w
-INFO:root:m u_5 s
-INFO:root:Move this turn:
-
-INFO:root:m u_1 s
-INFO:root:m u_3 n
-INFO:root:Move this turn:
-
-INFO:root:m u_5 n
-INFO:root:Move this turn:
-
-INFO:root:m u_1 w
-INFO:root:m u_3 w
-INFO:root:Move this turn:
-
-INFO:root:m u_5 n
-INFO:root:r 5 10
-INFO:root:Move this turn:
-
-INFO:root:bcity u_1
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:m u_5 s
-INFO:root:Move this turn:
-
-INFO:root:m u_3 s
-INFO:root:Move this turn:
-
-INFO:root:m u_3 s
-INFO:root:Move this turn:
-
-INFO:root:m u_3 s
-INFO:root:Move this turn:
-
-INFO:root:m u_3 s
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:m u_3 n
-INFO:root:bw 4 11
-INFO:root:bw 5 11
-INFO:root:bw 5 10
-INFO:root:Move this turn:
-
-INFO:root:m u_5 w
-INFO:root:r 5 11
-INFO:root:r 5 10
-INFO:root:Move this turn:
-
-INFO:root:m u_3 w
-INFO:root:Move this turn:
-
-INFO:root:m u_5 s
-INFO:root:m u_7 n
-INFO:root:Move this turn:
-
-INFO:root:m u_3 s
-INFO:root:m u_5 e
-INFO:root:Move this turn:
-
-INFO:root:m u_5 n
-INFO:root:Move this turn:
-
-INFO:root:bcity u_3
-INFO:root:m u_5 n
-INFO:root:m u_7 s
-INFO:root:Move this turn:
-
-INFO:root:m u_3 n
-INFO:root:bw 3 11
-INFO:root:Move this turn:
-
-INFO:root:m u_5 s
-INFO:root:Move this turn:
-
-INFO:root:m u_3 s
-INFO:root:Move this turn:
-
-INFO:root:m u_3 n
-INFO:root:r 4 11
-INFO:root:Move this turn:
-
-INFO:root:m u_3 n
-INFO:root:r 5 11
-INFO:root:r 5 10
-INFO:root:Move this turn:
-
-INFO:root:m u_3 n
-INFO:root:Move this turn:
-
-INFO:root:m u_3 n
-INFO:root:Move this turn:
-
-INFO:root:m u_5 s
-INFO:root:Move this turn:
-
-INFO:root:m u_3 s
-INFO:root:Move this turn:
-
-INFO:root:m u_3 n
-INFO:root:Move this turn:
-
-INFO:root:m u_5 s
-INFO:root:r 3 11
-INFO:root:Move this turn:
-
-INFO:root:m u_3 s
-INFO:root:Move this turn:
-
-INFO:root:m u_3 s
-INFO:root:Move this turn:
-
-INFO:root:m u_3 s
-INFO:root:m u_5 s
-INFO:root:r 4 11
-INFO:root:Move this turn:
-
-INFO:root:m u_5 s
-INFO:root:r 5 11
-INFO:root:r 5 10
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:r 3 11
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 n
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:r 4 11
-INFO:root:r 5 11
-INFO:root:r 5 10
-INFO:root:r 3 11
-INFO:root:Move this turn:
-
-INFO:root:m u_3 n
-INFO:root:Move this turn:
-
-INFO:root:m u_5 n
-INFO:root:Move this turn:
-
-INFO:root:m u_3 n
-INFO:root:Move this turn:
-
-INFO:root:m u_5 n
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_5 n
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
+INFO:root:bw 7 10
 INFO:root:Move this turn:
 
 INFO:root:m u_5 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_5 e
-INFO:root:r 4 11
-INFO:root:r 5 11
-INFO:root:r 5 10
-INFO:root:r 3 11
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_5 n
-INFO:root:Move this turn:
-
-INFO:root:m u_3 w
-INFO:root:m u_7 n
-INFO:root:Move this turn:
-
-INFO:root:m u_5 e
-INFO:root:m u_9 n
-INFO:root:Move this turn:
-
-INFO:root:m u_3 w
-INFO:root:m u_7 n
-INFO:root:Move this turn:
-
-INFO:root:m u_5 e
-INFO:root:m u_9 n
-INFO:root:Move this turn:
-
-INFO:root:m u_3 w
-INFO:root:m u_7 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 w
-INFO:root:m u_5 s
-INFO:root:m u_7 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 w
-INFO:root:m u_7 n
-INFO:root:Move this turn:
-
-INFO:root:m u_5 s
-INFO:root:m u_9 n
-INFO:root:r 4 11
-INFO:root:r 5 11
-INFO:root:r 5 10
-INFO:root:r 3 11
-INFO:root:Move this turn:
-
-INFO:root:m u_3 w
-INFO:root:m u_7 e
-INFO:root:Move this turn:
-
-INFO:root:m u_5 w
 INFO:root:m u_9 e
 INFO:root:Move this turn:
 
-INFO:root:m u_3 s
-INFO:root:m u_7 e
+INFO:root:m u_1 s
+INFO:root:m u_3 w
+INFO:root:m u_5 e
 INFO:root:Move this turn:
 
-INFO:root:m u_5 w
-INFO:root:m u_9 e
-INFO:root:Move this turn:
-
-INFO:root:bcity u_3
-INFO:root:m u_7 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 n
-INFO:root:m u_5 w
-INFO:root:m u_9 e
-INFO:root:bw 4 10
-INFO:root:Move this turn:
-
-INFO:root:m u_5 n
-INFO:root:m u_7 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:m u_9 n
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:m u_7 s
-INFO:root:Move this turn:
-
-INFO:root:m u_3 s
-INFO:root:m u_5 s
-INFO:root:m u_7 s
+INFO:root:m u_1 s
+INFO:root:m u_3 w
+INFO:root:m u_5 e
 INFO:root:m u_9 s
 INFO:root:Move this turn:
 
-INFO:root:m u_7 s
+INFO:root:m u_12 e
 INFO:root:Move this turn:
 
-INFO:root:m u_7 w
+INFO:root:m u_1 w
+INFO:root:m u_3 w
+INFO:root:m u_5 w
+INFO:root:m u_9 w
+INFO:root:m u_12 e
 INFO:root:Move this turn:
 
-INFO:root:m u_7 w
+INFO:root:m u_3 e
+INFO:root:m u_5 e
+INFO:root:m u_9 e
 INFO:root:Move this turn:
 
-INFO:root:m u_7 w
+INFO:root:bcity u_1
+INFO:root:m u_3 e
+INFO:root:m u_5 e
+INFO:root:m u_12 w
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:r 6 12
+INFO:root:r 5 10
 INFO:root:Move this turn:
 
-INFO:root:m u_7 w
+INFO:root:m u_1 e
+INFO:root:m u_12 e
+INFO:root:bw 7 11
 INFO:root:Move this turn:
 
-INFO:root:m u_7 w
+INFO:root:m u_3 e
+INFO:root:m u_5 w
+INFO:root:m u_12 e
 INFO:root:Move this turn:
 
-INFO:root:m u_7 w
+INFO:root:m u_1 n
+INFO:root:m u_3 e
+INFO:root:m u_5 e
+INFO:root:r 7 10
 INFO:root:Move this turn:
 
-INFO:root:m u_7 w
+INFO:root:m u_1 n
+INFO:root:m u_3 e
+INFO:root:m u_5 e
+INFO:root:m u_9 w
+INFO:root:m u_12 w
 INFO:root:Move this turn:
 
-INFO:root:m u_7 w
+INFO:root:m u_1 n
+INFO:root:m u_3 s
+INFO:root:m u_5 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_5 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 e
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_5 e
+INFO:root:m u_15 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 w
+INFO:root:m u_5 w
+INFO:root:m u_9 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_5 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_3 e
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:Move this turn:
+
+INFO:root:m u_5 e
+INFO:root:m u_9 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_3 e
+INFO:root:Move this turn:
+
+INFO:root:m u_5 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 w
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_5 e
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 w
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 e
+INFO:root:m u_12 e
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 w
+INFO:root:m u_12 e
+INFO:root:Move this turn:
+
+INFO:root:bcity u_1
+INFO:root:m u_3 e
+INFO:root:m u_5 e
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_3 e
+INFO:root:m u_9 w
+INFO:root:bw 7 9
+INFO:root:Move this turn:
+
+INFO:root:m u_5 e
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_3 e
+INFO:root:Move this turn:
+
+INFO:root:m u_5 e
+INFO:root:m u_12 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 w
+INFO:root:Move this turn:
+
+INFO:root:m u_5 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 w
+INFO:root:m u_5 e
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_5 w
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 e
+INFO:root:m u_5 w
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:Move this turn:
+
+INFO:root:m u_9 n
+INFO:root:r 7 9
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 w
+INFO:root:m u_5 w
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_5 e
+INFO:root:m u_15 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 w
+INFO:root:m u_5 e
+INFO:root:m u_15 e
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 e
+INFO:root:Move this turn:
+
+INFO:root:bcity u_1
+INFO:root:m u_3 e
+INFO:root:m u_5 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_5 e
+INFO:root:m u_9 w
+INFO:root:bw 7 12
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_5 e
+INFO:root:m u_15 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_5 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_5 w
+INFO:root:Move this turn:
+
+INFO:root:m u_5 w
+INFO:root:Move this turn:
+
+INFO:root:m u_5 w
+INFO:root:Move this turn:
+
+INFO:root:m u_5 w
+INFO:root:Move this turn:
+
+INFO:root:m u_5 w
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_5 e
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:m u_5 e
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_18 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 e
+INFO:root:m u_5 w
+INFO:root:m u_18 n
+INFO:root:Move this turn:
+
+INFO:root:m u_9 e
+INFO:root:Move this turn:
+
+INFO:root:bcity u_1
+INFO:root:m u_3 e
+INFO:root:m u_5 w
+INFO:root:m u_18 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 e
+INFO:root:bw 8 11
 INFO:root:Move this turn:
 
 INFO:root:m u_3 n
-INFO:root:bw 4 11
+INFO:root:m u_5 n
+INFO:root:m u_15 s
+INFO:root:m u_20 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_5 n
+INFO:root:m u_15 s
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_9 n
+INFO:root:m u_19 s
+INFO:root:m u_20 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_5 n
+INFO:root:m u_15 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_9 n
+INFO:root:m u_19 s
+INFO:root:m u_20 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_5 n
+INFO:root:m u_15 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_19 s
+INFO:root:m u_20 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_5 n
+INFO:root:m u_15 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_19 w
+INFO:root:m u_20 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_15 w
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_19 w
+INFO:root:m u_20 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_15 w
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_19 w
+INFO:root:m u_20 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_15 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_19 w
+INFO:root:m u_20 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_15 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_19 w
+INFO:root:m u_20 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_15 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_19 e
+INFO:root:m u_20 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_15 e
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_5 n
+INFO:root:m u_19 w
+INFO:root:m u_20 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 w
+INFO:root:m u_5 s
+INFO:root:m u_9 s
+INFO:root:m u_15 n
+INFO:root:m u_18 s
+INFO:root:m u_19 n
+INFO:root:m u_20 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 w
+INFO:root:m u_15 n
+INFO:root:m u_20 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 w
+INFO:root:m u_15 n
+INFO:root:m u_20 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 w
+INFO:root:m u_15 n
+INFO:root:m u_20 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 w
+INFO:root:m u_15 n
+INFO:root:m u_20 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 w
+INFO:root:m u_15 n
+INFO:root:m u_20 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 w
+INFO:root:m u_15 n
+INFO:root:m u_20 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 w
+INFO:root:m u_15 n
+INFO:root:m u_20 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 w
+INFO:root:m u_15 n
+INFO:root:m u_20 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 w
+INFO:root:m u_15 e
+INFO:root:m u_20 n
+INFO:root:Move this turn:
+
+INFO:root:m u_9 n
 INFO:root:bw 5 11
+INFO:root:bw 6 11
+INFO:root:bw 6 10
+INFO:root:bw 6 12
 INFO:root:bw 5 10
-INFO:root:bw 3 11
-INFO:root:bw 4 10
+INFO:root:bw 7 10
+INFO:root:bw 7 11
+INFO:root:bw 7 9
+INFO:root:bw 7 12
+INFO:root:bw 8 11
 INFO:root:Move this turn:
 
-INFO:root:m u_5 n
-INFO:root:r 5 11
+INFO:root:m u_12 n
+INFO:root:m u_22 s
+INFO:root:r 6 12
 INFO:root:r 5 10
-INFO:root:r 3 11
-INFO:root:r 4 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 e
+INFO:root:m u_9 n
+INFO:root:m u_15 s
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_20 s
+INFO:root:m u_22 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_3 e
+INFO:root:m u_9 n
+INFO:root:m u_15 s
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_20 s
+INFO:root:m u_22 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 e
+INFO:root:m u_9 n
+INFO:root:m u_15 s
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_20 s
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 e
+INFO:root:m u_9 n
+INFO:root:m u_15 n
+INFO:root:m u_23 s
 INFO:root:Move this turn:
 
 INFO:root:m u_3 e
+INFO:root:m u_12 n
+INFO:root:m u_20 n
+INFO:root:m u_22 w
 INFO:root:Move this turn:
 
+INFO:root:m u_1 n
 INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:r 4 11
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
+INFO:root:m u_9 n
+INFO:root:m u_15 n
+INFO:root:m u_23 s
 INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_12 n
+INFO:root:m u_20 n
+INFO:root:m u_22 w
+INFO:root:r 6 12
 INFO:root:r 5 10
-INFO:root:r 3 11
-INFO:root:r 4 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 e
+INFO:root:m u_9 n
+INFO:root:m u_15 n
+INFO:root:m u_23 s
 INFO:root:Move this turn:
 
 INFO:root:m u_3 e
+INFO:root:m u_12 n
+INFO:root:m u_20 n
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 e
+INFO:root:m u_9 w
+INFO:root:m u_15 e
+INFO:root:m u_23 w
 INFO:root:Move this turn:
 
 INFO:root:m u_3 e
+INFO:root:m u_12 n
+INFO:root:m u_20 n
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 e
+INFO:root:m u_9 w
+INFO:root:m u_15 e
+INFO:root:m u_23 s
 INFO:root:Move this turn:
 
 INFO:root:m u_3 e
+INFO:root:m u_12 w
+INFO:root:m u_20 n
+INFO:root:m u_22 e
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 e
+INFO:root:m u_9 s
+INFO:root:m u_13 n
+INFO:root:m u_15 e
+INFO:root:m u_23 s
 INFO:root:Move this turn:
 
 INFO:root:m u_3 e
+INFO:root:m u_12 w
+INFO:root:m u_20 n
+INFO:root:m u_22 n
 INFO:root:Move this turn:
 
+INFO:root:m u_1 w
 INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:r 4 11
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
+INFO:root:m u_9 s
+INFO:root:m u_13 n
+INFO:root:m u_15 e
+INFO:root:m u_23 s
 INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:Move this turn:
+
+INFO:root:m u_3 e
+INFO:root:m u_12 s
+INFO:root:m u_15 s
+INFO:root:m u_20 n
+INFO:root:m u_22 n
+INFO:root:m u_24 n
+INFO:root:r 6 12
 INFO:root:r 5 10
-INFO:root:r 3 11
-INFO:root:r 4 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 e
+INFO:root:m u_9 s
+INFO:root:m u_13 n
+INFO:root:m u_20 n
+INFO:root:m u_23 w
 INFO:root:Move this turn:
 
 INFO:root:m u_3 e
+INFO:root:m u_12 s
+INFO:root:m u_15 s
+INFO:root:m u_22 n
+INFO:root:m u_24 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 e
+INFO:root:m u_9 s
+INFO:root:m u_13 n
+INFO:root:m u_20 n
+INFO:root:m u_23 w
 INFO:root:Move this turn:
 
 INFO:root:m u_3 e
+INFO:root:m u_12 s
+INFO:root:m u_15 s
+INFO:root:m u_22 e
+INFO:root:m u_24 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 e
+INFO:root:m u_9 s
+INFO:root:m u_13 n
+INFO:root:m u_20 w
+INFO:root:m u_23 s
 INFO:root:Move this turn:
 
 INFO:root:m u_3 e
+INFO:root:m u_12 s
+INFO:root:m u_15 w
+INFO:root:m u_22 e
+INFO:root:m u_24 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 e
+INFO:root:m u_9 s
+INFO:root:m u_13 n
+INFO:root:m u_20 s
+INFO:root:m u_23 n
 INFO:root:Move this turn:
 
 INFO:root:m u_3 e
+INFO:root:m u_12 s
+INFO:root:m u_15 w
+INFO:root:m u_22 e
+INFO:root:m u_24 n
 INFO:root:Move this turn:
 
-INFO:root:m u_3 e
+INFO:root:m u_1 n
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_13 s
+INFO:root:m u_15 n
+INFO:root:m u_20 n
+INFO:root:m u_22 e
+INFO:root:m u_23 n
+INFO:root:m u_24 s
 INFO:root:Move this turn:
 
-INFO:root:m u_3 e
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_22 e
+INFO:root:m u_23 n
 INFO:root:Move this turn:
 
-INFO:root:m u_3 e
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_23 n
 INFO:root:Move this turn:
 
-INFO:root:m u_3 e
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_23 n
 INFO:root:Move this turn:
 
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
+INFO:root:m u_9 n
+INFO:root:bw 5 11
+INFO:root:bw 6 11
+INFO:root:bw 6 10
+INFO:root:bw 6 12
+INFO:root:bw 5 10
+INFO:root:bw 7 10
+INFO:root:bw 7 11
+INFO:root:bw 7 9
+INFO:root:bw 7 12
+INFO:root:bw 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_20 s
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_1 s
 INFO:root:m u_3 s
-INFO:root:m u_5 s
-INFO:root:m u_7 w
+INFO:root:m u_9 n
 INFO:root:Move this turn:
 
+INFO:root:m u_12 n
+INFO:root:m u_20 s
 INFO:root:Move this turn:
 
+INFO:root:m u_1 s
+INFO:root:m u_3 s
+INFO:root:m u_9 n
 INFO:root:Move this turn:
 
+INFO:root:m u_12 n
+INFO:root:m u_20 w
 INFO:root:Move this turn:
 
+INFO:root:m u_1 w
+INFO:root:m u_3 s
+INFO:root:m u_9 n
 INFO:root:Move this turn:
 
+INFO:root:m u_12 n
+INFO:root:m u_20 w
 INFO:root:Move this turn:
 
+INFO:root:m u_1 w
+INFO:root:m u_3 s
+INFO:root:m u_9 n
 INFO:root:Move this turn:
 
+INFO:root:m u_1 w
+INFO:root:m u_12 n
 INFO:root:Move this turn:
 
+INFO:root:m u_1 w
+INFO:root:m u_3 s
+INFO:root:m u_9 n
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
 INFO:root:Move this turn:
 
+INFO:root:m u_1 w
+INFO:root:m u_12 n
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 s
+INFO:root:m u_9 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_12 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 s
+INFO:root:m u_9 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_12 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 s
+INFO:root:m u_9 s
+INFO:root:m u_30 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_9 s
+INFO:root:m u_12 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 s
+INFO:root:m u_30 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 s
+INFO:root:m u_30 n
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 s
+INFO:root:m u_30 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 w
+INFO:root:m u_30 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 n
+INFO:root:m u_30 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_3 n
+INFO:root:m u_30 n
+INFO:root:Move this turn:
+
+INFO:root:m u_1 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:Move this turn:
+
+INFO:root:m u_1 n
+INFO:root:m u_3 n
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_20 n
+INFO:root:m u_23 n
+INFO:root:m u_30 s
 INFO:root:Move this turn:
 
 INFO:root:m u_3 n
-INFO:root:r 4 11
-INFO:root:r 5 11
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_23 e
+INFO:root:Move this turn:
+
+INFO:root:m u_9 n
+INFO:root:m u_22 s
+INFO:root:bw 5 11
+INFO:root:bw 6 11
+INFO:root:bw 6 10
+INFO:root:bw 6 12
+INFO:root:bw 5 10
+INFO:root:bw 7 10
+INFO:root:bw 7 11
+INFO:root:bw 7 9
+INFO:root:bw 7 12
+INFO:root:bw 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_28 s
+INFO:root:r 6 12
 INFO:root:r 5 10
-INFO:root:r 3 11
-INFO:root:r 4 10
-INFO:root:Move this turn:
-
-INFO:root:m u_5 n
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:r 4 11
-INFO:root:r 5 11
-INFO:root:r 5 10
-INFO:root:r 3 11
-INFO:root:r 4 10
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:r 4 11
-INFO:root:r 5 11
-INFO:root:r 5 10
-INFO:root:r 3 11
-INFO:root:r 4 10
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
-INFO:root:Move this turn:
-
-INFO:root:m u_3 e
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:r 8 11
 INFO:root:Move this turn:
 
 INFO:root:m u_3 s
-INFO:root:m u_5 s
+INFO:root:m u_9 n
+INFO:root:m u_22 s
 INFO:root:Move this turn:
 
+INFO:root:m u_12 n
+INFO:root:m u_23 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 s
+INFO:root:m u_9 n
+INFO:root:m u_22 s
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_23 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 s
+INFO:root:m u_9 n
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_23 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 s
+INFO:root:m u_9 n
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_9 n
+INFO:root:m u_22 w
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_22 w
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_9 n
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_9 n
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_9 s
+INFO:root:m u_22 w
+INFO:root:m u_36 n
+INFO:root:Move this turn:
+
+INFO:root:m u_9 s
+INFO:root:m u_12 n
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_22 w
+INFO:root:m u_36 n
+INFO:root:Move this turn:
+
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_22 w
+INFO:root:m u_36 n
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:r 6 10
+INFO:root:Move this turn:
+
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_22 w
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_22 w
+INFO:root:m u_36 n
+INFO:root:Move this turn:
+
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_22 w
+INFO:root:m u_36 n
+INFO:root:Move this turn:
+
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_22 w
+INFO:root:m u_36 n
+INFO:root:Move this turn:
+
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_22 w
+INFO:root:m u_36 n
+INFO:root:Move this turn:
+
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_22 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_22 n
+INFO:root:m u_23 n
+INFO:root:m u_36 s
+INFO:root:Move this turn:
+
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_23 e
+INFO:root:Move this turn:
+
+INFO:root:m u_3 s
+INFO:root:m u_9 n
+INFO:root:bw 5 11
+INFO:root:bw 6 11
+INFO:root:bw 6 10
+INFO:root:bw 6 12
+INFO:root:bw 5 10
+INFO:root:bw 7 10
+INFO:root:bw 7 11
+INFO:root:bw 7 9
+INFO:root:bw 7 12
+INFO:root:bw 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_28 s
+INFO:root:r 6 10
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_3 s
+INFO:root:m u_9 n
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_23 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 n
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_23 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 n
+INFO:root:Move this turn:
+
+INFO:root:m u_12 n
+INFO:root:m u_23 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_12 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 n
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_12 n
+INFO:root:r 6 10
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_12 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_12 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:m u_12 n
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:r 5 11
+INFO:root:r 6 11
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:r 6 10
+INFO:root:r 6 12
+INFO:root:r 5 10
+INFO:root:r 7 10
+INFO:root:r 7 11
+INFO:root:r 7 9
+INFO:root:r 7 12
+INFO:root:r 8 11
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:Move this turn:
+
+INFO:root:m u_3 w
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:Move this turn:
+
+INFO:root:m u_3 n
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:m u_28 n
+INFO:root:Move this turn:
+
+INFO:root:m u_9 s
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_12 s
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_23 n
+INFO:root:Move this turn:
+
+INFO:root:m u_23 e
+INFO:root:Move this turn:
+
+INFO:root:m u_9 n
+INFO:root:m u_28 s
+INFO:root:bw 5 11
+INFO:root:bw 6 11
+INFO:root:bw 6 10
+INFO:root:bw 6 12
+INFO:root:bw 5 10
+INFO:root:bw 7 10
+INFO:root:bw 7 11
+INFO:root:bw 7 9
+INFO:root:bw 7 12
+INFO:root:bw 8 11

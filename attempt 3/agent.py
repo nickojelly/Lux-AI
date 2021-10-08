@@ -17,6 +17,20 @@ with open('basicLog.log', 'w'):
 
 logging.basicConfig(filename="basicLog.log", level = logging.INFO)
 
+
+class gs:
+    build_location = None
+    night_flag=False
+    logging_str=[]
+    clusterflag=False
+    resource_clusters=[]
+    city_tiles=[]
+    opp_city_tiles=[]
+    def __init__(self) -> None:
+        pass
+
+
+
 DIRECTIONS = Constants.DIRECTIONS
 game_state = None
 build_location = None
@@ -26,6 +40,13 @@ clusterflag = True
 resource_clusters = []
 city_tiles = []
 opp_city_tiles = []
+
+status = gs()
+
+gamestats = {
+    "BuildFlag" : False,
+    "NightFlag" : False,
+    }
 
 def log_function(log_entry):
     global logging_str
@@ -44,7 +65,7 @@ def get_resource_tiles(game_state, width, height):
     return resource_tiles
 
 def get_closest_resource(unit, resource_tiles, player):
-    global clusterflag
+    global status
     closest_dist = math.inf
     closest_resource_tile = None
 
@@ -60,7 +81,7 @@ def get_closest_resource(unit, resource_tiles, player):
             if dist < closest_dist and resource_tile.pos not in unit_pos_list:
                 closest_dist = dist
                 closest_resource_tile = resource_tile
-    if clusterflag:
+    if status.clusterflag:
         get_rescoure_cluster(closest_resource_tile, [])            
     return closest_resource_tile
 
@@ -123,24 +144,17 @@ def get_better_path(unit, dest):
     log_function(f"---- get_better_path ----\nunit pos = {(unit.pos.x,unit.pos.y)} to {dest.pos.x,dest.pos.y}")
     while not better_path:
         full_new_path_list = []
-
         for p in path_list:
             new_path_list = []
-
             curr_path_cor = []
             for n in p:
-                #log_function(f"n pos = {n.pos.x, n.pos.y}")
                 curr_path_cor.append((n.pos.x, n.pos.y))
-            #log_function(f"{curr_path_cor=}")
             current_cell = p[-1]
             #log_function(f" current cell = {current_cell.pos.x,current_cell.pos.y}")
             adj_cells = get_build_grid(current_cell,1)
-
             for i in adj_cells:
-                #log_function(f"i={i.pos.x,i.pos.y}")
                 try:
                     check_cell = i
-                    #log_function(f"check cell = {check_cell.pos.x, check_cell.pos.y}")
                     if check_cell.pos.equals(dest.pos):
                         better_path = p + [check_cell]
                         log_function(f"***** best path found ***** {better_path=}")
@@ -149,9 +163,7 @@ def get_better_path(unit, dest):
                         continue
                     else:
                         check_path = p
-                        #log_function(f"1{check_path[0].pos.x,check_path[0].pos.y}")
                         check_path= p + [check_cell]
-                        #log_function(f"2{check_path=}")
                         new_path_list.append(check_path)
                         visited.append(check_cell)
                 except Exception as e:
@@ -161,7 +173,6 @@ def get_better_path(unit, dest):
             
         path_list = full_new_path_list
         
-        #log_function("end of it\n\n")
     log_function(f"Best path from {(unit.pos.x,unit.pos.y)} to {dest.pos.x,dest.pos.y} is:")
     for i in better_path:
         log_function(f" ({i.pos.x,i.pos.y})")
@@ -187,6 +198,7 @@ def night_move(player,unit):
     
 
 def build_city_action(game_state, player, unit):
+    global status
     global build_location
     global resource_clusters
     global opp_city_tiles
@@ -195,6 +207,10 @@ def build_city_action(game_state, player, unit):
     log_function(f"{len(player.cities)=}")
     build_dist = 2
     cluster_loc = None
+
+    if num_cities==0:
+        empty_near = game_state.map.get_cell_by_pos(unit.pos)
+
     if resource_clusters:
         for i in [x[0] for x in resource_clusters]:
             if i.resource==Constants.RESOURCE_TYPES.WOOD:
@@ -449,6 +465,9 @@ def agent(observation, configuration):
     #for s in logging_str:
     #    actions.append(annotate.sidetext(f"{s}"))
     logging_str = []
+    if observation["step"] == 359:
+        with open("statsfile", "a") as f:
+            f.write(f"{len(city_tiles)}")
     #logging.info("Move this turn:\n")
     #for act in actions:
     #    logging.info(f"{act}")

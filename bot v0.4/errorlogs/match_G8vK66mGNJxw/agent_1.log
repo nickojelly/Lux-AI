@@ -1,0 +1,19 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 57, in get_best_build_loc
+    check_tile = game_state.map.get_cell(closest_city_tile.x+d[0],closest_city_tile.y+d[1])
+AttributeError: 'CityTile' object has no attribute 'x'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 111, in agent
+    new_city_loc = get_best_build_loc(game_state, closest_city_tile)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 65, in get_best_build_loc
+    logging.WARNING(f"{observation[step]}: Build_loc : {str(e)}")
+NameError: name 'observation' is not defined
+Agent timed out

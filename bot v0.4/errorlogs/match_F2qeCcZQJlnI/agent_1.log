@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 181, in agent
+    actions.append(night_move(player,unit))
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 97, in night_move
+    logging.info(f"Closest home for unit {unit} is {close_home.pos}")
+AttributeError: 'NoneType' object has no attribute 'pos'
+Agent timed out

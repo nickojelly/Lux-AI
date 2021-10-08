@@ -1,0 +1,14 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 2\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 2\agent.py", line 320, in agent
+    actions.append(build_city_action(game_state,player,unit))
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 2\agent.py", line 181, in build_city_action
+    get_better_path(unit, build_location)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 2\agent.py", line 124, in get_better_path
+    current_cell = p[-1]
+TypeError: 'Position' object is not subscriptable
+Agent timed out
