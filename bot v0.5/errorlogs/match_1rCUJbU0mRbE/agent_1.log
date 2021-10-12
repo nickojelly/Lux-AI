@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\agent.py", line 403, in agent
+    if unit.pos in city_tiles:
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\lux\game_map.py", line 68, in __eq__
+    return self.x == pos.x and self.y == pos.y
+AttributeError: 'CityTile' object has no attribute 'x'
+Agent timed out

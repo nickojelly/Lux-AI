@@ -1,0 +1,10 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 213, in agent
+    for ct in player.cities.values.citytiles:
+AttributeError: 'builtin_function_or_method' object has no attribute 'citytiles'
+Agent timed out

@@ -1,0 +1,19 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 58, in get_best_build_loc
+    logging.INFO(f" Checking {check_tile}")
+TypeError: 'int' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 114, in agent
+    new_city_loc = get_best_build_loc(game_state, closest_city_tile)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 67, in get_best_build_loc
+    logging.WARNING(f"Found new loc {check_tile}")
+TypeError: 'int' object is not callable
+Agent timed out

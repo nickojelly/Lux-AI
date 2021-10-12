@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\agent.py", line 404, in agent
+    actions.append(build_city_action(game_state,player,unit))
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\agent.py", line 204, in build_city_action
+    log_function(f"Expaning to largest cluster on {cluster_loc.pos.x,cluster_loc.pos.y}\n\n----------")
+AttributeError: 'NoneType' object has no attribute 'pos'
+Agent timed out

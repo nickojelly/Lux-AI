@@ -31,6 +31,14 @@ class gs:
     def __init__(self) -> None:
         pass
 
+class worker_status:
+    destination = Cell
+    path = [Cell]
+    builder = False
+    build_new_cluster = None
+
+    def __init__(self, id) -> None:
+        self.id = id
 
 
 DIRECTIONS = Constants.DIRECTIONS
@@ -45,10 +53,7 @@ opp_city_tiles = []
 
 status = gs()
 
-gamestats = {
-    "BuildFlag" : False,
-    "NightFlag" : False,
-    }
+worker_dict = {}
 
 def log_function(log_entry):
     global status
@@ -57,8 +62,8 @@ def log_function(log_entry):
     #logging.info(f"{logging_str=}")
     
 def annotatefunc(annotation):
-    global gamestats
-    gamestats.notes.append(annotation)
+    global status
+    status.notes.append(annotation)
 
 
 def get_resource_tiles(game_state, width, height):
@@ -187,8 +192,6 @@ def get_better_path(unit, dest):
         #log_function(f"next pos ({better_path[0].pos.x,better_path[0].pos.y})")
         return better_path[0]
 
-
-
 def night_move(player,unit):
     global game_state
     close_home = get_closest_city_tile(player,unit)
@@ -197,7 +200,6 @@ def night_move(player,unit):
     else:
         return unit.move(unit.pos.direction_to(close_home.pos))
     
-
 def build_city_action(game_state, player, unit):
     global status
     empty_near = get_closest_city_tile(player,unit)
@@ -323,8 +325,6 @@ def get_rescoure_cluster(cell, cluster):
             cluster = get_rescoure_cluster(c, cluster)
     return cluster
         
-
-
 def get_resource_grid(game_state, width, height):
     resource_tiles = get_resource_tiles(game_state, width, height)
     resource_packets = []
@@ -344,25 +344,26 @@ def move_manager(player, move_list):
         if move[0] == 'd':
             adjusted_move_list.append(move)
         act = move.split()[0]
-        #log_function(f"{act=}")
         if act == "m":
+            logging.info("yo")
             u_id = move.split()[1]
             dir = move.split()[2]
-            #log_function(f"{act,u_id,dir=}")
             new_pos = unit_dict[u_id].translate(dir,1)
+            logging.info(f"{new_pos =}")
             if new_pos in new_pos_list:
-                #log_function(f"{move=} will result in an error")
+                logging.info(f"{move=} will result in an error")
                 pass
             else:
+                new_pos_list.append(new_pos)
                 adjusted_move_list.append(move)
         else: adjusted_move_list.append(move)
-    #log_function(f"{adjusted_move_list=}")
     return adjusted_move_list
 
 
 def agent(observation, configuration):
     global game_state
     global status
+    global worker_dict
     ### Do not edit ###
     if observation["step"] == 0:
         game_state = Game()
@@ -374,7 +375,8 @@ def agent(observation, configuration):
     
     actions = []
     #step = observation["step"]
-    #log_function(f"----- turn = {observation['step'], game_state=} ----- ")
+    if observation["step"]%2:
+        log_function(f"----- turn = {observation['step'], game_state=} ----- ")
 
     #if observation["step"] >5:
     #    return None
@@ -422,6 +424,18 @@ def agent(observation, configuration):
     for worker in player.units:
         if worker.is_worker:
             workers.append(worker)
+            if worker.id not in worker_dict.keys():
+                log_function(f"New worker Created {worker.id=}")
+                new_worker = worker_status(worker.id)
+                worker_dict[worker.id] = new_worker
+
+    log_function(f"{worker_dict.values()=}")
+    for key in worker_dict.keys():
+        if key not in [worker.id for worker in workers]:
+            #worker_dict.pop(key)
+            log_function(f"Looks like {key=} has died")
+
+
 
     resource_tiles = get_resource_tiles(game_state,width,height)
 
@@ -490,9 +504,9 @@ def agent(observation, configuration):
 
     actions = move_manager(player, actions)
     logging.info(f"{actions=}")
-    if observation["step"] == 359:
+    if observation["step"] >= 359:
         with open("statsfile", "a") as f:
-            f.write(f"{len(status.city_tiles)}")
+            f.write(f"{len(status.city_tiles)}\n")
     #logging.info("Move this turn:\n")
     #for act in actions:
     #    annotatefunc(f"{}")

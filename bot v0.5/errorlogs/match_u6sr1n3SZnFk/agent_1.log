@@ -1,0 +1,14 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 151, in agent
+    actions.append(build_city_action(game_state,player,unit))
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 96, in build_city_action
+    move_cell = get_simple_path(unit, build_location)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 66, in get_simple_path
+    cell_x_dir = GameMap.get_cell(unit.pos.x+sign(dx), unit.pos.y)
+TypeError: get_cell() missing 1 required positional argument: 'y'
+Agent timed out
