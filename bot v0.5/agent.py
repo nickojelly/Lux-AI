@@ -6,6 +6,7 @@ from types import CellType
 from numpy.core.numeric import full_like
 from lux.game import Game
 from lux.game_map import Cell, RESOURCE_TYPES, GameMap
+from lux.game_objects import Unit
 from lux.constants import Constants
 from lux.game_constants import GAME_CONSTANTS
 from lux import annotate
@@ -34,14 +35,24 @@ class gs:
     def __init__(self) -> None:
         pass
 
-class worker_status:
+#Actually dont want to initialize, as 
+class worker_status(Unit):
     destination = Cell
     path = [Cell]
     builder = False
     build_new_cluster = None
     home_city = None
     def __init__(self, id) -> None:
+
         self.id = id
+
+class worker_test(Unit):
+    home_city = "Test Str"
+    def __init__(self, worker):
+        self.unit = worker
+        
+
+
 
 
 DIRECTIONS = Constants.DIRECTIONS
@@ -460,6 +471,8 @@ def agent(observation, configuration):
             workers.append(worker)
             if worker.id not in worker_dict.keys():
                 log_function(f"New worker Created {worker.id=}")
+                test = worker_test(worker)
+                log_function(f"{test,test.home_city,test.unit.id=}")
                 new_worker = worker_status(worker.id)
                 worker_dict[worker.id] = new_worker
 
