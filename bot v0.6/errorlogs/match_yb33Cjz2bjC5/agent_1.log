@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\agent.py", line 408, in agent
+    actions.append(build_city_action(game_state,player,unit))
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\agent.py", line 201, in build_city_action
+    logging.log(f"build loc =  {build_location.pos.x, build_location.pos.y}")
+TypeError: log() missing 1 required positional argument: 'msg'
+Agent timed out

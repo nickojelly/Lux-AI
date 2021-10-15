@@ -1,0 +1,14 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 2\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 2\agent.py", line 334, in agent
+    actions.append(build_city_action(game_state,player,unit))
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 2\agent.py", line 202, in build_city_action
+    move_cell = get_better_path(unit, build_location)
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 2\agent.py", line 127, in get_better_path
+    log_function(f"n pos = {n.pos.x, n.pos.y}")
+AttributeError: 'list' object has no attribute 'pos'
+Agent timed out

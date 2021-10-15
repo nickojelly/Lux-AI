@@ -53,8 +53,6 @@ class worker_test(Unit):
         
 
 
-
-
 DIRECTIONS = Constants.DIRECTIONS
 game_state = None
 
@@ -289,6 +287,7 @@ def get_build_grid(cell, dist):
 def get_best_build_cell(cells,unit):
     global game_state
     global status
+    global worker_dict
     best_loc = None
     best_loc_val = -1
     for c in cells:
@@ -296,7 +295,9 @@ def get_best_build_cell(cells,unit):
         if not c.citytile and not c.has_resource():
             neighbours = get_build_grid(c, 1)
             close_cells = get_build_grid(c,3)
-            c_val = c_val - unit.pos.distance_to(c.pos)
+            if not worker_dict[unit.id].build_new_cluster: 
+                log_function(f"this is not a new cluster {worker_dict[unit.id].build_new_cluster}")
+                c_val = c_val - unit.pos.distance_to(c.pos)
             for n in neighbours:
                 if n.citytile:
                     c_val += 5
@@ -493,7 +494,7 @@ def agent(observation, configuration):
 
     num_clusters = 2
     max_num_explorers = 3
-    if len(status.city_tiles) > 6:
+    if len(status.city_tiles) > 3:
         while status.num_explorers < max_num_explorers:
             log_function(f"{status.num_explorers=}")
             get_builder_workers(player)

@@ -1,0 +1,11 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\main.py", line 3, in <module>
+    from agent import agent
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 73
+    logging.info(f"here = {game_state['step']")
+                                              ^
+SyntaxError: f-string: expecting '}'
+Agent timed out
