@@ -1,0 +1,9 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\agent.py", line 376, in agent
+    builder_unit = player.units[0]
+IndexError: list index out of range

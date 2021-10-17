@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\agent.py", line 356, in agent
+    closest_resource_tile = get_closest_resource(unit, resource_tiles, player) 
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\attempt 3\agent.py", line 58, in get_closest_resource
+    get_rescoure_cluster(closest_resource_tile)            
+TypeError: get_rescoure_cluster() missing 1 required positional argument: 'cluster'
+Agent timed out

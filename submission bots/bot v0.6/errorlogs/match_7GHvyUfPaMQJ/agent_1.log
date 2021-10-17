@@ -1,0 +1,18 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 185, in agent
+    actions.append(night_move(player,unit))
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 98, in night_move
+    return unit.move(unit.pos.direction_to(close_home))
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\lux\game_map.py", line 95, in direction_to
+    closest_dist = self.distance_to(target_pos)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\lux\game_map.py", line 62, in distance_to
+    return self - pos
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\lux\game_map.py", line 56, in __sub__
+    return abs(pos.x - self.x) + abs(pos.y - self.y)
+AttributeError: 'CityTile' object has no attribute 'x'
+Agent timed out

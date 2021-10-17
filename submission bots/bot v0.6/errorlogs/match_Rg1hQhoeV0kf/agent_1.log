@@ -1,0 +1,11 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\main.py", line 3, in <module>
+    from agent import agent
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 112
+    logging.info(f"{observation["step"]}: Checking {check_tile}")
+                                 ^
+SyntaxError: f-string: unmatched '['
+Agent timed out
