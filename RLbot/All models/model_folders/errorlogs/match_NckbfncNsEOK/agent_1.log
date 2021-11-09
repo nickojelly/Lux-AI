@@ -1,0 +1,29 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main_lux-ai-2021.py", line 23, in <module>
+    model = PPO.load(f"model.zip")
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\RLbot\All models\model_folders\cluster\logs_8677\stable_baselines3\common\base_class.py", line 651, in load
+    data, params, pytorch_variables = load_from_zip_file(path, device=device, custom_objects=custom_objects)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\RLbot\All models\model_folders\cluster\logs_8677\stable_baselines3\common\save_util.py", line 382, in load_from_zip_file
+    load_path = open_path(load_path, "r", verbose=verbose, suffix="zip")
+  File "C:\Users\Nick\.conda\envs\py37\lib\functools.py", line 840, in wrapper
+    return dispatch(args[0].__class__)(*args, **kw)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\RLbot\All models\model_folders\cluster\logs_8677\stable_baselines3\common\save_util.py", line 232, in open_path_str
+    return open_path(pathlib.Path(path), mode, verbose, suffix)
+  File "C:\Users\Nick\.conda\envs\py37\lib\functools.py", line 840, in wrapper
+    return dispatch(args[0].__class__)(*args, **kw)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\RLbot\All models\model_folders\cluster\logs_8677\stable_baselines3\common\save_util.py", line 284, in open_path_pathlib
+    return open_path(path, mode, verbose, suffix)
+  File "C:\Users\Nick\.conda\envs\py37\lib\functools.py", line 840, in wrapper
+    return dispatch(args[0].__class__)(*args, **kw)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\RLbot\All models\model_folders\cluster\logs_8677\stable_baselines3\common\save_util.py", line 264, in open_path_pathlib
+    raise error
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\RLbot\All models\model_folders\cluster\logs_8677\stable_baselines3\common\save_util.py", line 256, in open_path_pathlib
+    path = path.open("rb")
+  File "C:\Users\Nick\.conda\envs\py37\lib\pathlib.py", line 1208, in open
+    opener=self._opener)
+  File "C:\Users\Nick\.conda\envs\py37\lib\pathlib.py", line 1063, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'model.zip.zip'

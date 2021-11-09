@@ -1,0 +1,14 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\simple.tar\main.py", line 3, in <module>
+    from agent import agent
+  File "c:\Users\Nick\Documents\GitHub\Lux-AI\simple.tar\agent.py", line 14, in <module>
+    from kaggle_environments import make
+  File "C:\Users\Nick\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\kaggle_environments\__init__.py", line 17, in <module>
+    from .agent import Agent
+  File "C:\Users\Nick\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\kaggle_environments\agent.py", line 18, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+Agent timed out

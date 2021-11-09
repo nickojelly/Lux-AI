@@ -1,0 +1,10 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\submission bots\bot v0.6\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\submission bots\bot v0.6\agent.py", line 709, in agent
+    if unit.pos.distance_to(closest_resource_tile.pos) <=1 and not unit.pos.equals(closest_city_tile.pos):
+AttributeError: 'NoneType' object has no attribute 'pos'
+Agent timed out

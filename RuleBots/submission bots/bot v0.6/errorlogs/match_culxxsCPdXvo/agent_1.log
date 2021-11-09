@@ -1,0 +1,17 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 112, in agent
+    logging.info(f"{observation[step]}: Checking {check_tile}")
+NameError: name 'step' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "C:\Users\Nick\Documents\GitHub\Lux-AI\attempt 1\agent.py", line 119, in agent
+    logging.warning(f"{observation[step]} broke")
+NameError: name 'step' is not defined
+Agent timed out

@@ -1,0 +1,1806 @@
+INFO:root:----- turn = 0 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A6820>]
+INFO:root:Getting Resource Grid
+INFO:root:Resource Clusters *******
+
+INFO:root:coords=[(3, 6), (2, 6), (2, 7), (3, 7)]
+INFO:root:coords=[(13, 6), (12, 6), (12, 7), (13, 7)]
+INFO:root:coords=[(7, 10), (6, 10), (8, 10), (9, 10)]
+INFO:root:coords=[(6, 0), (5, 0), (5, 1)]
+INFO:root:coords=[(10, 0), (9, 0), (10, 1)]
+INFO:root:coords=[(1, 13), (1, 12), (0, 13)]
+INFO:root:coords=[(14, 13), (14, 12), (15, 13)]
+INFO:root:coords=[(8, 8), (7, 8)]
+INFO:root:----- turn = 1 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AA310>]
+INFO:root:----- turn = 2 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BD970>]
+INFO:root:----- turn = 3 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B0040>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:Nearest City is [8, 9]
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x000001FF869A2160> with best_loc_val=11
+INFO:root:---- get_better_path ----
+unit pos = (8, 8) to (9, 9)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A03D0>, <lux.game_map.Cell object at 0x000001FF869A0490>, <lux.game_map.Cell object at 0x000001FF869A20D0>]
+INFO:root:Best path from (8, 8) to (9, 9) is:
+INFO:root: ((8, 8))
+INFO:root: ((9, 8))
+INFO:root: ((9, 9))
+INFO:root:next pos ((9, 8))
+INFO:root:----- turn = 4 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A8880>]
+INFO:root:----- turn = 5 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2FA0>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(9, 9, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869A20D0>, [<lux.game_objects.CityTile object at 0x000001FF869B4070>])
+INFO:root:---- get_better_path ----
+unit pos = (9, 8) to (9, 9)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF8699D550>, <lux.game_map.Cell object at 0x000001FF8699F190>]
+INFO:root:Best path from (9, 8) to (9, 9) is:
+INFO:root: ((9, 8))
+INFO:root: ((9, 9))
+INFO:root:next pos ((9, 9))
+INFO:root:----- turn = 6 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A28B0>]
+INFO:root:----- turn = 7 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B82E0>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(9, 9, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869A20D0>, [<lux.game_objects.CityTile object at 0x000001FF869B83D0>])
+INFO:root:----- turn = 8 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AF5B0>]
+INFO:root:Building Worker
+INFO:root:----- turn = 9 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BA8E0>]
+INFO:root:----- turn = 10 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C2E80>]
+INFO:root:----- turn = 11 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AA610>]
+INFO:root:----- turn = 12 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C0160>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:Nearest City is [8, 9]
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x000001FF869AFE20> with best_loc_val=9
+INFO:root:---- get_better_path ----
+unit pos = (8, 10) to (9, 8)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF8699EF40>, <lux.game_map.Cell object at 0x000001FF869C2EB0>, <lux.game_map.Cell object at 0x000001FF869C2C70>, <lux.game_map.Cell object at 0x000001FF8699E4C0>, <lux.game_map.Cell object at 0x000001FF869AF430>, <lux.game_map.Cell object at 0x000001FF869AF100>]
+INFO:root:Best path from (8, 10) to (9, 8) is:
+INFO:root: ((8, 10))
+INFO:root: ((9, 10))
+INFO:root: ((10, 10))
+INFO:root: ((10, 9))
+INFO:root: ((10, 8))
+INFO:root: ((9, 8))
+INFO:root:next pos ((9, 10))
+INFO:root:----- turn = 13 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B07C0>]
+INFO:root:----- turn = 14 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B4BB0>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(9, 8, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869AF100>, [<lux.game_objects.CityTile object at 0x000001FF869B42B0>, <lux.game_objects.CityTile object at 0x000001FF869B4280>])
+INFO:root:---- get_better_path ----
+unit pos = (9, 10) to (9, 8)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A2E80>, <lux.game_map.Cell object at 0x000001FF869A2D00>, <lux.game_map.Cell object at 0x000001FF8699D5E0>, <lux.game_map.Cell object at 0x000001FF869B23D0>, <lux.game_map.Cell object at 0x000001FF869B22B0>]
+INFO:root:Best path from (9, 10) to (9, 8) is:
+INFO:root: ((9, 10))
+INFO:root: ((10, 10))
+INFO:root: ((10, 9))
+INFO:root: ((10, 8))
+INFO:root: ((9, 8))
+INFO:root:next pos ((10, 10))
+INFO:root:----- turn = 15 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B5D90>]
+INFO:root:----- turn = 16 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869ADF40>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(9, 8, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869AF100>, [<lux.game_objects.CityTile object at 0x000001FF869ADFA0>, <lux.game_objects.CityTile object at 0x000001FF869555B0>])
+INFO:root:---- get_better_path ----
+unit pos = (10, 10) to (9, 8)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B6190>, <lux.game_map.Cell object at 0x000001FF8699C5B0>, <lux.game_map.Cell object at 0x000001FF869B4700>, <lux.game_map.Cell object at 0x000001FF869B4B80>]
+INFO:root:Best path from (10, 10) to (9, 8) is:
+INFO:root: ((10, 10))
+INFO:root: ((10, 9))
+INFO:root: ((10, 8))
+INFO:root: ((9, 8))
+INFO:root:next pos ((10, 9))
+INFO:root:----- turn = 17 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699E430>]
+INFO:root:----- turn = 18 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A6CA0>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(9, 8, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869AF100>, [<lux.game_objects.CityTile object at 0x000001FF869A6A60>, <lux.game_objects.CityTile object at 0x000001FF869A6220>])
+INFO:root:---- get_better_path ----
+unit pos = (10, 9) to (9, 8)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF8699B580>, <lux.game_map.Cell object at 0x000001FF869B0340>, <lux.game_map.Cell object at 0x000001FF869B0FD0>]
+INFO:root:Best path from (10, 9) to (9, 8) is:
+INFO:root: ((10, 9))
+INFO:root: ((10, 8))
+INFO:root: ((9, 8))
+INFO:root:next pos ((10, 8))
+INFO:root:----- turn = 19 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2040>]
+INFO:root:----- turn = 20 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869ACE20>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(9, 8, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869AF100>, [<lux.game_objects.CityTile object at 0x000001FF869ACEB0>, <lux.game_objects.CityTile object at 0x000001FF869ACE50>, <lux.game_objects.CityTile object at 0x000001FF869ACF10>])
+INFO:root:---- get_better_path ----
+unit pos = (10, 8) to (9, 8)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869CB970>, <lux.game_map.Cell object at 0x000001FF869CB8B0>]
+INFO:root:Best path from (10, 8) to (9, 8) is:
+INFO:root: ((10, 8))
+INFO:root: ((9, 8))
+INFO:root:next pos ((9, 8))
+INFO:root:----- turn = 21 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AA820>]
+INFO:root:----- turn = 22 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BDF70>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(9, 8, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869AF100>, [<lux.game_objects.CityTile object at 0x000001FF869BDFD0>, <lux.game_objects.CityTile object at 0x000001FF869BDFA0>, <lux.game_objects.CityTile object at 0x000001FF8699C190>])
+INFO:root:----- turn = 23 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699C4F0>]
+INFO:root:Building Worker
+INFO:root:----- turn = 24 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C8FA0>]
+INFO:root:----- turn = 25 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B0F70>]
+INFO:root:----- turn = 26 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B8520>]
+INFO:root:----- turn = 27 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C51C0>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:Nearest City is [8, 9]
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x000001FF869A8AF0> with best_loc_val=6
+INFO:root:---- get_better_path ----
+unit pos = (8, 8) to (10, 9)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869AFCA0>, <lux.game_map.Cell object at 0x000001FF869B6670>, <lux.game_map.Cell object at 0x000001FF869B6730>, <lux.game_map.Cell object at 0x000001FF869B67F0>, <lux.game_map.Cell object at 0x000001FF869AF4F0>, <lux.game_map.Cell object at 0x000001FF869A8EB0>]
+INFO:root:Best path from (8, 8) to (10, 9) is:
+INFO:root: ((8, 8))
+INFO:root: ((8, 7))
+INFO:root: ((9, 7))
+INFO:root: ((10, 7))
+INFO:root: ((10, 8))
+INFO:root: ((10, 9))
+INFO:root:next pos ((8, 7))
+INFO:root:----- turn = 28 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C9550>]
+INFO:root:----- turn = 29 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A15B0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 30 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A6280>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 31 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C4760>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 32 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B4730>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 33 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B28E0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 34 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A8AC0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 35 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B86D0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 36 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BA940>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 37 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CB130>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 38 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AF370>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 39 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B07C0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 40 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A6BE0>]
+INFO:root:----- turn = 41 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AAEE0>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(10, 9, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869A8EB0>, [<lux.game_objects.CityTile object at 0x000001FF869AA070>, <lux.game_objects.CityTile object at 0x000001FF869AA3A0>, <lux.game_objects.CityTile object at 0x000001FF869AAF40>])
+INFO:root:To FAR
+
+ new build location unit.pos.x,unit.pos.y=(8, 7)
+INFO:root:Nearest City is [8, 7]
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x000001FF869BA100> with best_loc_val=9
+INFO:root:---- get_better_path ----
+unit pos = (8, 7) to (9, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869BA700>, <lux.game_map.Cell object at 0x000001FF869BA910>]
+INFO:root:Best path from (8, 7) to (9, 7) is:
+INFO:root: ((8, 7))
+INFO:root: ((9, 7))
+INFO:root:next pos ((9, 7))
+INFO:root:----- turn = 42 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2BE0>]
+INFO:root:----- turn = 43 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A8BB0>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(9, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BA910>, [<lux.game_objects.CityTile object at 0x000001FF869A8EE0>, <lux.game_objects.CityTile object at 0x000001FF869A8B50>, <lux.game_objects.CityTile object at 0x000001FF869A8B80>])
+INFO:root:----- turn = 44 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B47F0>]
+INFO:root:Building Worker
+INFO:root:----- turn = 45 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699D1F0>]
+INFO:root:----- turn = 46 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C9610>]
+INFO:root:----- turn = 47 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B8BB0>]
+INFO:root:----- turn = 48 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AF4C0>]
+INFO:root:----- turn = 49 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699C100>]
+INFO:root:----- turn = 50 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A6B80>]
+INFO:root:----- turn = 51 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B0970>]
+INFO:root:----- turn = 52 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BAB80>]
+INFO:root:----- turn = 53 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B5A00>]
+INFO:root:----- turn = 54 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2130>]
+INFO:root:----- turn = 55 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C0A00>]
+INFO:root:----- turn = 56 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B4B20>]
+INFO:root:----- turn = 57 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CA0A0>]
+INFO:root:----- turn = 58 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AF190>]
+INFO:root:----- turn = 59 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699EB80>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:Nearest City is [9, 9]
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x000001FF8699DCA0> with best_loc_val=10
+INFO:root:---- get_better_path ----
+unit pos = (9, 10) to (8, 8)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C7250>, <lux.game_map.Cell object at 0x000001FF869C7CA0>, <lux.game_map.Cell object at 0x000001FF869A3BE0>, <lux.game_map.Cell object at 0x000001FF8699DF70>, <lux.game_map.Cell object at 0x000001FF869C4EE0>, <lux.game_map.Cell object at 0x000001FF869BDD90>, <lux.game_map.Cell object at 0x000001FF869BDCD0>, <lux.game_map.Cell object at 0x000001FF869BDC10>, <lux.game_map.Cell object at 0x000001FF869B4C10>, <lux.game_map.Cell object at 0x000001FF8699DDF0>]
+INFO:root:Best path from (9, 10) to (8, 8) is:
+INFO:root: ((9, 10))
+INFO:root: ((10, 10))
+INFO:root: ((10, 9))
+INFO:root: ((10, 8))
+INFO:root: ((10, 7))
+INFO:root: ((10, 6))
+INFO:root: ((9, 6))
+INFO:root: ((8, 6))
+INFO:root: ((8, 7))
+INFO:root: ((8, 8))
+INFO:root:next pos ((10, 10))
+INFO:root:----- turn = 60 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699B2B0>]
+INFO:root:----- turn = 61 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BAD30>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(8, 8, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF8699DDF0>, [<lux.game_objects.CityTile object at 0x000001FF869BA8B0>, <lux.game_objects.CityTile object at 0x000001FF869BA310>, <lux.game_objects.CityTile object at 0x000001FF869BAF70>, <lux.game_objects.CityTile object at 0x000001FF869BAAC0>])
+INFO:root:To FAR
+
+ new build location unit.pos.x,unit.pos.y=(10, 10)
+INFO:root:Nearest City is [10, 10]
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x000001FF8699CF10> with best_loc_val=8
+INFO:root:---- get_better_path ----
+unit pos = (10, 10) to (10, 8)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A3E50>, <lux.game_map.Cell object at 0x000001FF8699EFD0>, <lux.game_map.Cell object at 0x000001FF8699CF70>]
+INFO:root:Best path from (10, 10) to (10, 8) is:
+INFO:root: ((10, 10))
+INFO:root: ((10, 9))
+INFO:root: ((10, 8))
+INFO:root:next pos ((10, 9))
+INFO:root:----- turn = 62 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A1CD0>]
+INFO:root:----- turn = 63 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B0280>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(10, 8, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF8699CF70>, [<lux.game_objects.CityTile object at 0x000001FF869B0A00>, <lux.game_objects.CityTile object at 0x000001FF869B0340>, <lux.game_objects.CityTile object at 0x000001FF869B0B80>, <lux.game_objects.CityTile object at 0x000001FF869B0EB0>])
+INFO:root:---- get_better_path ----
+unit pos = (10, 9) to (10, 8)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF8699FB50>, <lux.game_map.Cell object at 0x000001FF8699BA30>]
+INFO:root:Best path from (10, 9) to (10, 8) is:
+INFO:root: ((10, 9))
+INFO:root: ((10, 8))
+INFO:root:next pos ((10, 8))
+INFO:root:----- turn = 64 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A6DF0>]
+INFO:root:----- turn = 65 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C9310>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(10, 8, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF8699CF70>, [<lux.game_objects.CityTile object at 0x000001FF869C9040>, <lux.game_objects.CityTile object at 0x000001FF869C9580>, <lux.game_objects.CityTile object at 0x000001FF869C9C40>, <lux.game_objects.CityTile object at 0x000001FF869C9BB0>])
+INFO:root:----- turn = 66 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BDD30>]
+INFO:root:Building Worker
+INFO:root:----- turn = 67 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BD6A0>]
+INFO:root:----- turn = 68 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699DC10>]
+INFO:root:----- turn = 69 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699D760>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 70 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A2190>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 71 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B8040>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 72 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AFDF0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 73 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C0F10>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 74 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C5B20>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 75 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C53D0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 76 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B22E0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 77 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B0E80>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 78 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AA820>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 79 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CB340>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 80 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A8BB0>]
+INFO:root:----- turn = 81 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AC400>]
+INFO:root:----- turn = 82 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699BBE0>]
+INFO:root:----- turn = 83 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AFDF0>]
+INFO:root:----- turn = 84 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8697CBE0>]
+INFO:root:----- turn = 85 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BAF10>]
+INFO:root:----- turn = 86 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B46D0>]
+INFO:root:----- turn = 87 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B8A00>]
+INFO:root:----- turn = 88 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A6820>]
+INFO:root:----- turn = 89 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BDA60>]
+INFO:root:----- turn = 90 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2DC0>]
+INFO:root:----- turn = 91 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699C670>]
+INFO:root:----- turn = 92 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B5CA0>]
+INFO:root:----- turn = 93 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699D9A0>]
+INFO:root:----- turn = 94 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C7CA0>]
+INFO:root:----- turn = 95 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C0280>]
+INFO:root:----- turn = 96 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699E760>]
+INFO:root:----- turn = 97 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C5370>]
+INFO:root:----- turn = 98 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B4400>]
+INFO:root:----- turn = 99 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BA340>]
+INFO:root:----- turn = 100 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A1100>]
+INFO:root:----- turn = 101 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2160>]
+INFO:root:----- turn = 102 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A6910>]
+INFO:root:----- turn = 103 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B8280>]
+INFO:root:----- turn = 104 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A29A0>]
+INFO:root:----- turn = 105 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AA6D0>]
+INFO:root:----- turn = 106 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B6A30>]
+INFO:root:----- turn = 107 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B0370>]
+INFO:root:----- turn = 108 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BDA60>]
+INFO:root:----- turn = 109 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BD970>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 110 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699C250>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 111 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699CCD0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869A8A30> is (8, 9)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869A8EB0> is (9, 7)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869A8700> is (9, 7)
+INFO:root:----- turn = 112 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B4B80>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869B4B50> is (8, 9)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869B44F0> is (9, 7)
+INFO:root:Its night
+INFO:root:----- turn = 113 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AF580>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869AF4C0> is (8, 9)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869AF160> is (9, 7)
+INFO:root:Its night
+INFO:root:----- turn = 114 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699DD00>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF8699C9D0> is (8, 9)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FFEF9774C0> is (9, 7)
+INFO:root:Its night
+INFO:root:----- turn = 115 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2280>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869B2E50> is (8, 9)
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869B29A0> is (9, 7)
+INFO:root:Its night
+INFO:root:----- turn = 116 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A6AC0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869BAC70> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 117 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CAB20>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869CA970> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 118 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CB6A0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF86955100> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 119 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B8DF0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869C9C40> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 120 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869ACAF0>]
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:----- turn = 121 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AA580>]
+INFO:root:----- turn = 122 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B6C70>]
+INFO:root:----- turn = 123 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AC6A0>]
+INFO:root:----- turn = 124 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699B550>]
+INFO:root:----- turn = 125 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A1AF0>]
+INFO:root:----- turn = 126 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B45B0>]
+INFO:root:----- turn = 127 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BABB0>]
+INFO:root:----- turn = 128 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BD220>]
+INFO:root:----- turn = 129 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BD400>]
+INFO:root:----- turn = 130 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C7100>]
+INFO:root:----- turn = 131 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A2F40>]
+INFO:root:----- turn = 132 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699C190>]
+INFO:root:----- turn = 133 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2820>]
+INFO:root:----- turn = 134 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A6220>]
+INFO:root:----- turn = 135 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FFEF9A12B0>]
+INFO:root:----- turn = 136 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C8E50>]
+INFO:root:----- turn = 137 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A0E50>]
+INFO:root:----- turn = 138 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CAEB0>]
+INFO:root:----- turn = 139 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B5100>]
+INFO:root:----- turn = 140 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CB430>]
+INFO:root:----- turn = 141 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A86A0>]
+INFO:root:----- turn = 142 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C0BE0>]
+INFO:root:----- turn = 143 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C9E80>]
+INFO:root:----- turn = 144 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CCAC0>]
+INFO:root:----- turn = 145 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BA1C0>]
+INFO:root:----- turn = 146 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AF490>]
+INFO:root:----- turn = 147 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AC550>]
+INFO:root:----- turn = 148 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A1B20>]
+INFO:root:----- turn = 149 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699BBE0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 150 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C76A0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 151 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2AF0>]
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869B2A90> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869B2D90> is (9, 7)
+INFO:root:----- turn = 152 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BDC70>]
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869BD7F0> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869BDFA0> is (9, 7)
+INFO:root:----- turn = 153 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A2280>]
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869A2AF0> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869A28E0> is (9, 7)
+INFO:root:----- turn = 154 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A2A00>]
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869B0E20> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869A20D0> is (9, 7)
+INFO:root:----- turn = 155 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B8400>]
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869B8280> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869B86A0> is (9, 7)
+INFO:root:----- turn = 156 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BED00>]
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869BE1C0> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 157 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FFEF97AD60>]
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869BE670> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 158 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C8400>]
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869C82B0> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 159 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C8E80>]
+INFO:root:Its night
+INFO:root:Closest home for unit <lux.game_objects.Unit object at 0x000001FF869C8CA0> is (8, 9)
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 160 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B4B50>]
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:----- turn = 161 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CA550>]
+INFO:root:----- turn = 162 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B5DF0>]
+INFO:root:----- turn = 163 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B5DF0>]
+INFO:root:----- turn = 164 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AFD30>]
+INFO:root:----- turn = 165 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C0BB0>]
+INFO:root:----- turn = 166 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699D100>]
+INFO:root:----- turn = 167 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699DFD0>]
+INFO:root:----- turn = 168 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B28B0>]
+INFO:root:----- turn = 169 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CC220>]
+INFO:root:----- turn = 170 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699B5B0>]
+INFO:root:----- turn = 171 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699BD60>]
+INFO:root:----- turn = 172 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A1940>]
+INFO:root:----- turn = 173 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B0F40>]
+INFO:root:----- turn = 174 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AAAF0>]
+INFO:root:----- turn = 175 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FFEF979940>]
+INFO:root:----- turn = 176 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BDEE0>]
+INFO:root:----- turn = 177 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699F640>]
+INFO:root:----- turn = 178 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B6CD0>]
+INFO:root:----- turn = 179 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BE070>]
+INFO:root:----- turn = 180 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B41C0>]
+INFO:root:----- turn = 181 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C82B0>]
+INFO:root:----- turn = 182 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C8D60>]
+INFO:root:----- turn = 183 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CBEE0>]
+INFO:root:----- turn = 184 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B22B0>]
+INFO:root:----- turn = 185 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B0F10>]
+INFO:root:----- turn = 186 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A6940>]
+INFO:root:----- turn = 187 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A1670>]
+INFO:root:----- turn = 188 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CA910>]
+INFO:root:----- turn = 189 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CA250>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 190 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B6F70>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 191 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 192 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 193 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 194 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 195 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 196 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 197 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 198 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 199 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 200 ----- 
+INFO:root:cities=[]
+INFO:root:----- turn = 201 ----- 
+INFO:root:cities=[]
+INFO:root:----- turn = 202 ----- 
+INFO:root:cities=[]
+INFO:root:----- turn = 203 ----- 
+INFO:root:cities=[]
+INFO:root:----- turn = 204 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:Nearest City is [12, 6]
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x000001FF869BDFD0> with best_loc_val=7
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C94C0>, <lux.game_map.Cell object at 0x000001FF869C9790>, <lux.game_map.Cell object at 0x000001FF869BD310>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C94C0>, <lux.game_map.Cell object at 0x000001FF869BDA30>, <lux.game_map.Cell object at 0x000001FF869BD310>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 205 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869C85E0>, <lux.game_objects.CityTile object at 0x000001FF869C8220>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869BAC70>, <lux.game_map.Cell object at 0x000001FF869BA310>, <lux.game_map.Cell object at 0x000001FF869B5910>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869BAC70>, <lux.game_map.Cell object at 0x000001FF869B5C70>, <lux.game_map.Cell object at 0x000001FF869B5910>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 206 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869B6AF0>, <lux.game_objects.CityTile object at 0x000001FF869B6F70>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C0FD0>, <lux.game_map.Cell object at 0x000001FF869C0CD0>, <lux.game_map.Cell object at 0x000001FF869B8070>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C0FD0>, <lux.game_map.Cell object at 0x000001FF869B8520>, <lux.game_map.Cell object at 0x000001FF869B8070>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 207 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869C5610>, <lux.game_objects.CityTile object at 0x000001FF869C54F0>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C9130>, <lux.game_map.Cell object at 0x000001FF869C9F10>, <lux.game_map.Cell object at 0x000001FF869AF310>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C9130>, <lux.game_map.Cell object at 0x000001FF869AF580>, <lux.game_map.Cell object at 0x000001FF869AF310>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 208 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869C5430>, <lux.game_objects.CityTile object at 0x000001FF869C53A0>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869CAEE0>, <lux.game_map.Cell object at 0x000001FF869CA130>, <lux.game_map.Cell object at 0x000001FF869C8F40>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869CAEE0>, <lux.game_map.Cell object at 0x000001FF869C88B0>, <lux.game_map.Cell object at 0x000001FF869C8F40>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 209 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869C9B80>, <lux.game_objects.CityTile object at 0x000001FF869C9580>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869AAF40>, <lux.game_map.Cell object at 0x000001FF869AA2E0>, <lux.game_map.Cell object at 0x000001FFEF979940>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869AAF40>, <lux.game_map.Cell object at 0x000001FF869C0DF0>, <lux.game_map.Cell object at 0x000001FFEF979940>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 210 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869BAA00>, <lux.game_objects.CityTile object at 0x000001FF869BAD30>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C8A30>, <lux.game_map.Cell object at 0x000001FF869C80A0>, <lux.game_map.Cell object at 0x000001FF869C8A60>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C8A30>, <lux.game_map.Cell object at 0x000001FF869B4520>, <lux.game_map.Cell object at 0x000001FF869C8A60>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 211 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869C0580>, <lux.game_objects.CityTile object at 0x000001FF869C0D00>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B0B20>, <lux.game_map.Cell object at 0x000001FF869B02B0>, <lux.game_map.Cell object at 0x000001FF869A68B0>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B0B20>, <lux.game_map.Cell object at 0x000001FF869A6700>, <lux.game_map.Cell object at 0x000001FF869A68B0>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 212 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869AAEE0>, <lux.game_objects.CityTile object at 0x000001FF869AA8E0>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF8699DCD0>, <lux.game_map.Cell object at 0x000001FF8699DB20>, <lux.game_map.Cell object at 0x000001FF869C8E80>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF8699DCD0>, <lux.game_map.Cell object at 0x000001FF869C8F70>, <lux.game_map.Cell object at 0x000001FF869C8E80>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 213 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869B8520>, <lux.game_objects.CityTile object at 0x000001FF869B83A0>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF8699C280>, <lux.game_map.Cell object at 0x000001FF8699C1C0>, <lux.game_map.Cell object at 0x000001FF8699DBB0>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF8699C280>, <lux.game_map.Cell object at 0x000001FF8699D0D0>, <lux.game_map.Cell object at 0x000001FF8699DBB0>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 214 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869A6E20>, <lux.game_objects.CityTile object at 0x000001FF869A68B0>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C8C70>, <lux.game_map.Cell object at 0x000001FF869C8D90>, <lux.game_map.Cell object at 0x000001FFEF9A1250>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C8C70>, <lux.game_map.Cell object at 0x000001FFEF9A11F0>, <lux.game_map.Cell object at 0x000001FFEF9A1250>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 215 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF8699C940>, <lux.game_objects.CityTile object at 0x000001FF8699C970>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869BA670>, <lux.game_map.Cell object at 0x000001FF869BAF40>, <lux.game_map.Cell object at 0x000001FF869BAF10>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869BA670>, <lux.game_map.Cell object at 0x000001FF869BD1F0>, <lux.game_map.Cell object at 0x000001FF869BAF10>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 216 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF8699C070>, <lux.game_objects.CityTile object at 0x000001FF8699C0A0>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A8CA0>, <lux.game_map.Cell object at 0x000001FF869A8850>, <lux.game_map.Cell object at 0x000001FF869C7520>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A8CA0>, <lux.game_map.Cell object at 0x000001FF869A08E0>, <lux.game_map.Cell object at 0x000001FF869C7520>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 217 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869B2250>, <lux.game_objects.CityTile object at 0x000001FF869B2E20>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A00A0>, <lux.game_map.Cell object at 0x000001FF869BDB20>, <lux.game_map.Cell object at 0x000001FF869CCD90>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A00A0>, <lux.game_map.Cell object at 0x000001FF869CCF40>, <lux.game_map.Cell object at 0x000001FF869CCD90>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 218 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869C5190>, <lux.game_objects.CityTile object at 0x000001FF869C5580>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A0FA0>, <lux.game_map.Cell object at 0x000001FF869A0EE0>, <lux.game_map.Cell object at 0x000001FF869AFA60>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A0FA0>, <lux.game_map.Cell object at 0x000001FF869AF130>, <lux.game_map.Cell object at 0x000001FF869AFA60>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 219 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF8699B250>, <lux.game_objects.CityTile object at 0x000001FF8699B670>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B5100>, <lux.game_map.Cell object at 0x000001FF869B5040>, <lux.game_map.Cell object at 0x000001FF869ACC10>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B5100>, <lux.game_map.Cell object at 0x000001FF869ACCD0>, <lux.game_map.Cell object at 0x000001FF869ACC10>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 220 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869C7F10>, <lux.game_objects.CityTile object at 0x000001FF869C7CA0>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B5DC0>, <lux.game_map.Cell object at 0x000001FF869B5D00>, <lux.game_map.Cell object at 0x000001FF869B0310>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B5DC0>, <lux.game_map.Cell object at 0x000001FF869B0AC0>, <lux.game_map.Cell object at 0x000001FF869B0310>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 221 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF86962460>, <lux.game_objects.CityTile object at 0x000001FFEF9A1040>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869AAF10>, <lux.game_map.Cell object at 0x000001FF869AAA60>, <lux.game_map.Cell object at 0x000001FF869CB250>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869AAF10>, <lux.game_map.Cell object at 0x000001FF869CB7C0>, <lux.game_map.Cell object at 0x000001FF869CB250>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 222 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FFEF97AC70>, <lux.game_objects.CityTile object at 0x000001FFEF97A850>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869AC280>, <lux.game_map.Cell object at 0x000001FF869AC1C0>, <lux.game_map.Cell object at 0x000001FF869C9DC0>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869AC280>, <lux.game_map.Cell object at 0x000001FF869C9E80>, <lux.game_map.Cell object at 0x000001FF869C9DC0>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 223 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869A0A00>, <lux.game_objects.CityTile object at 0x000001FF869A0A60>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869CBAF0>, <lux.game_map.Cell object at 0x000001FF869CB730>, <lux.game_map.Cell object at 0x000001FF869A1B80>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869CBAF0>, <lux.game_map.Cell object at 0x000001FF869A1C40>, <lux.game_map.Cell object at 0x000001FF869A1B80>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 224 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869A0130>, <lux.game_objects.CityTile object at 0x000001FF869A00D0>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869CB1F0>, <lux.game_map.Cell object at 0x000001FF869CBDC0>, <lux.game_map.Cell object at 0x000001FF869A1040>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869CB1F0>, <lux.game_map.Cell object at 0x000001FF869A1130>, <lux.game_map.Cell object at 0x000001FF869A1040>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 225 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869AF250>, <lux.game_objects.CityTile object at 0x000001FF869AF550>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A6B20>, <lux.game_map.Cell object at 0x000001FF869A6DF0>, <lux.game_map.Cell object at 0x000001FF8699C2E0>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A6B20>, <lux.game_map.Cell object at 0x000001FF8699C3A0>, <lux.game_map.Cell object at 0x000001FF8699C2E0>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 226 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869AC910>, <lux.game_objects.CityTile object at 0x000001FF869ACA00>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A1460>, <lux.game_map.Cell object at 0x000001FF869A13A0>, <lux.game_map.Cell object at 0x000001FF869BEF40>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A1460>, <lux.game_map.Cell object at 0x000001FF869B27F0>, <lux.game_map.Cell object at 0x000001FF869BEF40>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 227 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869AC160>, <lux.game_objects.CityTile object at 0x000001FF869AC0A0>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B4A60>, <lux.game_map.Cell object at 0x000001FF869B48E0>, <lux.game_map.Cell object at 0x000001FF869BE070>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B4A60>, <lux.game_map.Cell object at 0x000001FF869BE160>, <lux.game_map.Cell object at 0x000001FF869BE070>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 228 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869AAE50>, <lux.game_objects.CityTile object at 0x000001FF869AAA90>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A2640>, <lux.game_map.Cell object at 0x000001FF869A2580>, <lux.game_map.Cell object at 0x000001FF869BAAC0>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A2640>, <lux.game_map.Cell object at 0x000001FF869BAC40>, <lux.game_map.Cell object at 0x000001FF869BAAC0>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 229 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 230 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 231 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 232 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 233 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 234 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 235 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 236 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 237 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 238 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 239 ----- 
+INFO:root:cities=[]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 240 ----- 
+INFO:root:cities=[]
+INFO:root:----- turn = 241 ----- 
+INFO:root:cities=[]
+INFO:root:----- turn = 242 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869AF6A0>, <lux.game_objects.CityTile object at 0x000001FF869AF880>])
+INFO:root:---- get_better_path ----
+unit pos = (13, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869CC820>, <lux.game_map.Cell object at 0x000001FF869CC760>, <lux.game_map.Cell object at 0x000001FF869CC6A0>, <lux.game_map.Cell object at 0x000001FF869C54C0>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869CC820>, <lux.game_map.Cell object at 0x000001FF869CC760>, <lux.game_map.Cell object at 0x000001FF869C5670>, <lux.game_map.Cell object at 0x000001FF869C54C0>]
+INFO:root:Best path from (13, 6) to (11, 7) is:
+INFO:root: ((13, 6))
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 6))
+INFO:root:----- turn = 243 ----- 
+INFO:root:cities=[]
+INFO:root:----- turn = 244 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869B8220>, <lux.game_objects.CityTile object at 0x000001FF869B8490>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B5760>, <lux.game_map.Cell object at 0x000001FF869B56A0>, <lux.game_map.Cell object at 0x000001FF869BD7F0>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B5760>, <lux.game_map.Cell object at 0x000001FF869BD7C0>, <lux.game_map.Cell object at 0x000001FF869BD7F0>]
+INFO:root:Best path from (12, 6) to (11, 7) is:
+INFO:root: ((12, 6))
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 245 ----- 
+INFO:root:cities=[]
+INFO:root:----- turn = 246 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869CCA60>, <lux.game_objects.CityTile object at 0x000001FF869CCB50>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 7) to (11, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C8A30>, <lux.game_map.Cell object at 0x000001FF869C8B80>]
+INFO:root:Best path from (12, 7) to (11, 7) is:
+INFO:root: ((12, 7))
+INFO:root: ((11, 7))
+INFO:root:next pos ((11, 7))
+INFO:root:----- turn = 247 ----- 
+INFO:root:cities=[]
+INFO:root:----- turn = 248 ----- 
+INFO:root:cities=[]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=0
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869BD310>, [<lux.game_objects.CityTile object at 0x000001FF869BA8B0>, <lux.game_objects.CityTile object at 0x000001FF869BAA00>])
+INFO:root:----- turn = 249 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B4F70>]
+INFO:root:----- turn = 250 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B5C10>]
+INFO:root:----- turn = 251 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A2FD0>]
+INFO:root:----- turn = 252 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A2FD0>]
+INFO:root:----- turn = 253 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C8B20>]
+INFO:root:----- turn = 254 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AF760>]
+INFO:root:----- turn = 255 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C5CA0>]
+INFO:root:----- turn = 256 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CBDC0>]
+INFO:root:----- turn = 257 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A8AC0>]
+INFO:root:----- turn = 258 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869ACE50>]
+INFO:root:----- turn = 259 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A64F0>]
+INFO:root:----- turn = 260 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699C0D0>]
+INFO:root:----- turn = 261 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699DEE0>]
+INFO:root:----- turn = 262 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2160>]
+INFO:root:----- turn = 263 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B41C0>]
+INFO:root:----- turn = 264 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C08E0>]
+INFO:root:----- turn = 265 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AAEB0>]
+INFO:root:----- turn = 266 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C8E80>]
+INFO:root:----- turn = 267 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AF850>]
+INFO:root:----- turn = 268 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BDF10>]
+INFO:root:----- turn = 269 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BD730>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 270 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A8700>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 271 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B5940>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 272 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B0850>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 273 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699CA90>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 274 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A2760>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 275 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A2B50>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 276 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B4580>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 277 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A1850>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 278 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A1250>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 279 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BA340>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 280 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AA160>]
+INFO:root:----- turn = 281 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C89A0>]
+INFO:root:----- turn = 282 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CBF10>]
+INFO:root:----- turn = 283 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CBD30>]
+INFO:root:----- turn = 284 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C0C40>]
+INFO:root:----- turn = 285 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AFCA0>]
+INFO:root:----- turn = 286 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C5E20>]
+INFO:root:----- turn = 287 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A0B50>]
+INFO:root:----- turn = 288 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A0AC0>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:Nearest City is [11, 7]
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x000001FF869B6430> with best_loc_val=11
+INFO:root:---- get_better_path ----
+unit pos = (12, 6) to (11, 6)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B65E0>, <lux.game_map.Cell object at 0x000001FF869B6520>]
+INFO:root:Best path from (12, 6) to (11, 6) is:
+INFO:root: ((12, 6))
+INFO:root: ((11, 6))
+INFO:root:next pos ((11, 6))
+INFO:root:----- turn = 289 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869555B0>]
+INFO:root:----- turn = 290 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BEB50>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 6, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869B6520>, [<lux.game_objects.CityTile object at 0x000001FF869BEBE0>, <lux.game_objects.CityTile object at 0x000001FF869BEC40>])
+INFO:root:----- turn = 291 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BDBE0>]
+INFO:root:----- turn = 292 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BDCA0>]
+INFO:root:----- turn = 293 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2040>]
+INFO:root:----- turn = 294 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CA610>]
+INFO:root:----- turn = 295 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CAD00>]
+INFO:root:----- turn = 296 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C8C40>]
+INFO:root:----- turn = 297 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BAA30>]
+INFO:root:----- turn = 298 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A26D0>]
+INFO:root:----- turn = 299 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A1EE0>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:Nearest City is [11, 6]
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x000001FF869A1580> with best_loc_val=6
+INFO:root:---- get_better_path ----
+unit pos = (13, 6) to (11, 5)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF8699B370>, <lux.game_map.Cell object at 0x000001FF869A17F0>, <lux.game_map.Cell object at 0x000001FF869A1730>, <lux.game_map.Cell object at 0x000001FF869A1670>]
+INFO:root:Best path from (13, 6) to (11, 5) is:
+INFO:root: ((13, 6))
+INFO:root: ((13, 5))
+INFO:root: ((12, 5))
+INFO:root: ((11, 5))
+INFO:root:next pos ((13, 5))
+INFO:root:----- turn = 300 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AF070>]
+INFO:root:----- turn = 301 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C5EB0>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 5, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869A1670>, [<lux.game_objects.CityTile object at 0x000001FF869C5BE0>, <lux.game_objects.CityTile object at 0x000001FF869C5BB0>])
+INFO:root:---- get_better_path ----
+unit pos = (13, 5) to (11, 5)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869B2F70>, <lux.game_map.Cell object at 0x000001FF869B2910>, <lux.game_map.Cell object at 0x000001FF869B2E50>]
+INFO:root:Best path from (13, 5) to (11, 5) is:
+INFO:root: ((13, 5))
+INFO:root: ((12, 5))
+INFO:root: ((11, 5))
+INFO:root:next pos ((12, 5))
+INFO:root:----- turn = 302 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A1B50>]
+INFO:root:----- turn = 303 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699C6A0>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 5, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869A1670>, [<lux.game_objects.CityTile object at 0x000001FF8699C730>, <lux.game_objects.CityTile object at 0x000001FF8699C550>])
+INFO:root:---- get_better_path ----
+unit pos = (12, 5) to (11, 5)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869A06D0>, <lux.game_map.Cell object at 0x000001FF869A0610>]
+INFO:root:Best path from (12, 5) to (11, 5) is:
+INFO:root: ((12, 5))
+INFO:root: ((11, 5))
+INFO:root:next pos ((11, 5))
+INFO:root:----- turn = 304 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699B850>]
+INFO:root:----- turn = 305 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699BB50>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(11, 5, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869A1670>, [<lux.game_objects.CityTile object at 0x000001FF8699B340>, <lux.game_objects.CityTile object at 0x000001FF8699B490>])
+INFO:root:----- turn = 306 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2670>]
+INFO:root:----- turn = 307 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B8490>]
+INFO:root:----- turn = 308 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699DBB0>]
+INFO:root:----- turn = 309 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699D520>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 310 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CBDC0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 311 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CB670>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 312 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C8730>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 313 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BA430>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 314 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BD370>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 315 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BD970>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 316 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C2AF0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 317 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C21C0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 318 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AF4C0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 319 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B61F0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 320 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C5AC0>]
+INFO:root:----- turn = 321 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699CEB0>]
+INFO:root:----- turn = 322 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B5550>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:Nearest City is [11, 6]
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x000001FF8699B2E0> with best_loc_val=10
+INFO:root:---- get_better_path ----
+unit pos = (13, 6) to (12, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C85E0>, <lux.game_map.Cell object at 0x000001FF869C8FA0>, <lux.game_map.Cell object at 0x000001FF8699B2B0>]
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C85E0>, <lux.game_map.Cell object at 0x000001FF8699B370>, <lux.game_map.Cell object at 0x000001FF8699B2B0>]
+INFO:root:Best path from (13, 6) to (12, 7) is:
+INFO:root: ((13, 6))
+INFO:root: ((13, 7))
+INFO:root: ((12, 7))
+INFO:root:next pos ((13, 7))
+INFO:root:----- turn = 323 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869551C0>]
+INFO:root:----- turn = 324 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B41C0>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(12, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF8699B2B0>, [<lux.game_objects.CityTile object at 0x000001FF869B4B50>, <lux.game_objects.CityTile object at 0x000001FF869B42B0>])
+INFO:root:---- get_better_path ----
+unit pos = (13, 7) to (12, 7)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869CBDF0>, <lux.game_map.Cell object at 0x000001FF869CBD30>]
+INFO:root:Best path from (13, 7) to (12, 7) is:
+INFO:root: ((13, 7))
+INFO:root: ((12, 7))
+INFO:root:next pos ((12, 7))
+INFO:root:----- turn = 325 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AC130>]
+INFO:root:----- turn = 326 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2070>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(12, 7, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF8699B2B0>, [<lux.game_objects.CityTile object at 0x000001FF869B27F0>, <lux.game_objects.CityTile object at 0x000001FF869B2370>])
+INFO:root:----- turn = 327 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A1F10>]
+INFO:root:Building Worker
+INFO:root:----- turn = 328 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A16D0>]
+INFO:root:----- turn = 329 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699DE80>]
+INFO:root:----- turn = 330 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699D730>]
+INFO:root:----- turn = 331 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C8DF0>]
+INFO:root:----- turn = 332 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A67F0>]
+INFO:root:----- turn = 333 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CBB50>]
+INFO:root:----- turn = 334 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CB5B0>]
+INFO:root:----- turn = 335 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BEE20>]
+INFO:root:----- turn = 336 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BEB80>]
+INFO:root:----- turn = 337 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869CAE20>]
+INFO:root:----- turn = 338 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FFEF977460>]
+INFO:root:----- turn = 339 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF86955100>]
+INFO:root:----- turn = 340 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B6700>]
+INFO:root:----- turn = 341 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B6E80>]
+INFO:root:----- turn = 342 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B2B20>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:Nearest City is [12, 7]
+INFO:root:best location is best_loc.pos=<lux.game_map.Position object at 0x000001FF869A8100> with best_loc_val=12
+INFO:root:---- get_better_path ----
+unit pos = (13, 7) to (12, 6)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FFEF97AE50>, <lux.game_map.Cell object at 0x000001FF869A88B0>, <lux.game_map.Cell object at 0x000001FF869A8070>]
+INFO:root:Best path from (13, 7) to (12, 6) is:
+INFO:root: ((13, 7))
+INFO:root: ((13, 6))
+INFO:root: ((12, 6))
+INFO:root:next pos ((13, 6))
+INFO:root:----- turn = 343 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A2640>]
+INFO:root:----- turn = 344 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869A2C10>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(12, 6, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869A8070>, [<lux.game_objects.CityTile object at 0x000001FF869A2040>, <lux.game_objects.CityTile object at 0x000001FF869A2C40>])
+INFO:root:---- get_better_path ----
+unit pos = (13, 6) to (12, 6)
+INFO:root:***** best path found ***** better_path=[<lux.game_map.Cell object at 0x000001FF869C5BE0>, <lux.game_map.Cell object at 0x000001FF869C5D60>]
+INFO:root:Best path from (13, 6) to (12, 6) is:
+INFO:root: ((13, 6))
+INFO:root: ((12, 6))
+INFO:root:next pos ((12, 6))
+INFO:root:----- turn = 345 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B5CD0>]
+INFO:root:----- turn = 346 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AAF40>]
+INFO:root:Attempt City Build
+INFO:root:len(player.cities)=1
+INFO:root:build loc =  build_location.pos.x, build_location.pos.y, build_location.citytile=(12, 6, None), 
+INFO:root:build_location,opp_city_tiles=(<lux.game_map.Cell object at 0x000001FF869A8070>, [<lux.game_objects.CityTile object at 0x000001FF869AA130>, <lux.game_objects.CityTile object at 0x000001FF869AA9A0>])
+INFO:root:----- turn = 347 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C9EE0>]
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:Building Worker
+INFO:root:----- turn = 348 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C9DC0>]
+INFO:root:----- turn = 349 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C5A00>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 350 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B06A0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 351 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C5040>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 352 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699DFD0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 353 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869B49D0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 354 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF8699BCD0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 355 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FFEF9A1160>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 356 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C0DF0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 357 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869AA910>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 358 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BE970>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 359 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869BE6D0>]
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:Its night
+INFO:root:----- turn = 360 ----- 
+INFO:root:cities=[<lux.game_objects.City object at 0x000001FF869C8130>]
